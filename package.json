@@ -1,0 +1,22 @@
+{
+  "name": "builders",
+  "version": "1.0.0",
+  "description": "Utility Resourcepack for Bedrock Builders",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greyliances/Builders.git"
+  },
+  "author": "greyliances#0001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greyliances/Builders/issues"
+  },
+  "homepage": "https://github.com/greyliances/Builders#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1"
+  }
+}

@@ -1,0 +1,5027 @@
+{
+  "acacia_button": {
+    "id": null,
+    "meta": null,
+    "namespace": "acacia_button | §bpowered§f=§atrue§r",
+    "tile": "acacia_button"
+  },
+  "acacia_door": {
+    "id": 196,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "acacia_door",
+    "tile": "acacia_door"
+  },
+  "acacia_fence_gate": {
+    "id": 187,
+    "meta": 0,
+    "namespace": "acacia_fence_gate | §bin_wall§f=§atrue§r",
+    "tile": "acacia_fence_gate"
+  },
+  "acacia_pressure_plate": {
+    "id": null,
+    "meta": null,
+    "namespace": "acacia_pressure_plate",
+    "tile": "acacia_pressure_plate"
+  },
+  "acacia_sign": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "acacia_sign",
+    "tile": "acacia_sign"
+  },
+  "acacia_stairs": {
+    "id": 163,
+    "meta": 0,
+    "namespace": "acacia_stairs",
+    "tile": "acacia_stairs"
+  },
+  "acacia_standing_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "acacia_sign",
+    "tile": "acacia_standing_sign"
+  },
+  "acacia_trapdoor": {
+    "id": null,
+    "meta": null,
+    "namespace": "acacia_trapdoor",
+    "tile": "acacia_trapdoor"
+  },
+  "acaciaFence": {
+    "id": 192,
+    "meta": 0,
+    "namespace": "acacia_fence",
+    "tile": "acaciaFence"
+  },
+  "activator_rail": {
+    "id": 157,
+    "meta": 0,
+    "namespace": "activator_rail",
+    "tile": "activator_rail"
+  },
+  "air": {
+    "id": 0,
+    "meta": 0,
+    "namespace": "air",
+    "tile": "air"
+  },
+  "allow": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "allow",
+    "tile": "allow"
+  },
+  "ancient_debris": {
+    "id": null,
+    "meta": null,
+    "namespace": "ancient_debris",
+    "tile": "ancient_debris"
+  },
+  "andesite_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "andesite_stairs",
+    "tile": "andesite_stairs"
+  },
+  "anvil": {
+    "id": 145,
+    "meta": 0,
+    "namespace": "anvil",
+    "tile": "anvil"
+  },
+  "anvil.intact": {
+    "id": 145,
+    "meta": "0-3",
+    "namespace": "anvil:0-3",
+    "tile": "anvil.intact"
+  },
+  "anvil.slightlyDamaged": {
+    "id": 145,
+    "meta": "4-7",
+    "namespace": "anvil:4-7",
+    "tile": "anvil.slightlyDamaged"
+  },
+  "anvil.veryDamaged": {
+    "id": 145,
+    "meta": "8-11",
+    "namespace": "anvil:8-11",
+    "tile": "anvil.veryDamaged"
+  },
+  "baked_potato": {
+    "id": 142,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "potatoes",
+    "tile": "baked_potato"
+  },
+  "bamboo": {
+    "id": null,
+    "meta": null,
+    "namespace": "bamboo | $:bamboo_leaves_large §bleaves§f=§blarge§r $:bamboo_leaves_small §bleaves§f=§bsmall§r",
+    "tile": "bamboo"
+  },
+  "banner.black": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "black_banner",
+    "tile": "banner.black"
+  },
+  "banner.blue": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "blue_banner",
+    "tile": "banner.blue"
+  },
+  "banner.brown": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "brown_banner",
+    "tile": "banner.brown"
+  },
+  "banner.cyan": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "cyan_banner",
+    "tile": "banner.cyan"
+  },
+  "banner.gray": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "gray_banner",
+    "tile": "banner.gray"
+  },
+  "banner.green": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "green_banner",
+    "tile": "banner.green"
+  },
+  "banner.lightBlue": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "light_blue_banner",
+    "tile": "banner.lightBlue"
+  },
+  "banner.lime": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "lime_banner",
+    "tile": "banner.lime"
+  },
+  "banner.magenta": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "magenta_banner",
+    "tile": "banner.magenta"
+  },
+  "banner.orange": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "orange_banner",
+    "tile": "banner.orange"
+  },
+  "banner.pink": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "pink_banner",
+    "tile": "banner.pink"
+  },
+  "banner.purple": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "purple_banner",
+    "tile": "banner.purple"
+  },
+  "banner.red": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "red_banner",
+    "tile": "banner.red"
+  },
+  "banner.silver": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "light_gray_banner",
+    "tile": "banner.silver"
+  },
+  "banner.white": {
+    "id": 176,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "white_banner",
+    "tile": "banner.white"
+  },
+  "banner.yellow": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "yellow_banner",
+    "tile": "banner.yellow"
+  },
+  "barrel": {
+    "id": null,
+    "meta": null,
+    "namespace": "barrel | $:barrel_open §bopen§f=§atrue§r",
+    "tile": "barrel"
+  },
+  "barrier": {
+    "id": 166,
+    "meta": 0,
+    "namespace": "barrier",
+    "tile": "barrier"
+  },
+  "basalt": {
+    "id": null,
+    "meta": null,
+    "namespace": "basalt",
+    "tile": "basalt"
+  },
+  "beacon": {
+    "id": 138,
+    "meta": 0,
+    "namespace": "beacon",
+    "tile": "beacon"
+  },
+  "bed": {
+    "id": 26,
+    "meta": 0,
+    "namespace": "bed",
+    "tile": "bed"
+  },
+  "bed.black": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "black_bed",
+    "tile": "bed.black"
+  },
+  "bed.blue": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "blue_bed",
+    "tile": "bed.blue"
+  },
+  "bed.brown": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "brown_bed",
+    "tile": "bed.brown"
+  },
+  "bed.cyan": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "cyan_bed",
+    "tile": "bed.cyan"
+  },
+  "bed.gray": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "gray_bed",
+    "tile": "bed.gray"
+  },
+  "bed.green": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "green_bed",
+    "tile": "bed.green"
+  },
+  "bed.lightBlue": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "light_blue_bed",
+    "tile": "bed.lightBlue"
+  },
+  "bed.lime": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "lime_bed",
+    "tile": "bed.lime"
+  },
+  "bed.magenta": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "magenta_bed",
+    "tile": "bed.magenta"
+  },
+  "bed.orange": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "orange_bed",
+    "tile": "bed.orange"
+  },
+  "bed.pink": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "pink_bed",
+    "tile": "bed.pink"
+  },
+  "bed.purple": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "purple_bed",
+    "tile": "bed.purple"
+  },
+  "bed.red": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "red_bed",
+    "tile": "bed.red"
+  },
+  "bed.silver": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "light_gray_bed",
+    "tile": "bed.silver"
+  },
+  "bed.white": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "white_bed",
+    "tile": "bed.white"
+  },
+  "bed.yellow": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "yellow_bed",
+    "tile": "bed.yellow"
+  },
+  "bedrock": {
+    "id": 7,
+    "meta": 0,
+    "namespace": "bedrock",
+    "tile": "bedrock"
+  },
+  "bee_nest": {
+    "id": null,
+    "meta": null,
+    "namespace": "bee_nest | $:bee_nest_full §bhoney_level§f=§65§r",
+    "tile": "bee_nest"
+  },
+  "beehive": {
+    "id": null,
+    "meta": null,
+    "namespace": "beehive | $:beehive_full §bhoney_level§f=§65§r",
+    "tile": "beehive"
+  },
+  "beetroot": {
+    "id": 207,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "beetroots",
+    "tile": "beetroot"
+  },
+  "beetroot_seeds": {
+    "id": 207,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "beetroots",
+    "tile": "beetroot_seeds"
+  },
+  "bell": {
+    "id": null,
+    "meta": null,
+    "namespace": "bell | $:bell_hanging §battachment§f=§bceiling§r",
+    "tile": "bell"
+  },
+  "birch_button": {
+    "id": null,
+    "meta": null,
+    "namespace": "birch_button | §bpowered§f=§atrue§r",
+    "tile": "birch_button"
+  },
+  "birch_door": {
+    "id": 194,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "birch_door",
+    "tile": "birch_door"
+  },
+  "birch_fence_gate": {
+    "id": 184,
+    "meta": 0,
+    "namespace": "birch_fence_gate | §bin_wall§f=§atrue§r",
+    "tile": "birch_fence_gate"
+  },
+  "birch_pressure_plate": {
+    "id": null,
+    "meta": null,
+    "namespace": "birch_pressure_plate",
+    "tile": "birch_pressure_plate"
+  },
+  "birch_sign": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "birch_sign",
+    "tile": "birch_sign"
+  },
+  "birch_stairs": {
+    "id": 135,
+    "meta": 0,
+    "namespace": "birch_stairs",
+    "tile": "birch_stairs"
+  },
+  "birch_standing_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "birch_sign",
+    "tile": "birch_standing_sign"
+  },
+  "birch_trapdoor": {
+    "id": null,
+    "meta": null,
+    "namespace": "birch_trapdoor",
+    "tile": "birch_trapdoor"
+  },
+  "birchFence": {
+    "id": 189,
+    "meta": 0,
+    "namespace": "birch_fence",
+    "tile": "birchFence"
+  },
+  "blackstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "blackstone",
+    "tile": "blackstone"
+  },
+  "blackstone_slab": {
+    "id": null,
+    "meta": null,
+    "namespace": "blackstone_slab",
+    "tile": "blackstone_slab"
+  },
+  "blackstone_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "blackstone_stairs",
+    "tile": "blackstone_stairs"
+  },
+  "blackstone_wall": {
+    "id": null,
+    "meta": null,
+    "namespace": "blackstone_wall",
+    "tile": "blackstone_wall"
+  },
+  "blast_furnace": {
+    "id": null,
+    "meta": null,
+    "namespace": "blast_furnace | $:blast_furnace_lit §blit§f=§atrue§r",
+    "tile": "blast_furnace"
+  },
+  "blue_ice": {
+    "id": null,
+    "meta": null,
+    "namespace": "blue_ice",
+    "tile": "blue_ice"
+  },
+  "bone": {
+    "id": 216,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "bone_block",
+    "tile": "bone"
+  },
+  "bone_block": {
+    "id": 216,
+    "meta": 0,
+    "namespace": "bone_block",
+    "tile": "bone_block"
+  },
+  "bookshelf": {
+    "id": 47,
+    "meta": 0,
+    "namespace": "bookshelf",
+    "tile": "bookshelf"
+  },
+  "border_block": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "border_block",
+    "tile": "border_block"
+  },
+  "brewing_stand": {
+    "id": 117,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "brewing_stand | $:brewing_stand_filled §bhas_bottle_2§f=§atrue§r",
+    "tile": "brewing_stand"
+  },
+  "brick": {
+    "id": 45,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "bricks",
+    "tile": "brick"
+  },
+  "brick_block": {
+    "id": 45,
+    "meta": 0,
+    "namespace": "bricks",
+    "tile": "brick_block"
+  },
+  "brick_stairs": {
+    "id": 108,
+    "meta": 0,
+    "namespace": "brick_stairs",
+    "tile": "brick_stairs"
+  },
+  "brown_mushroom": {
+    "id": 39,
+    "meta": 0,
+    "namespace": "brown_mushroom",
+    "tile": "brown_mushroom"
+  },
+  "brown_mushroom_block.cap": {
+    "id": 99,
+    "meta": 14,
+    "namespace": "brown_mushroom_block",
+    "tile": "brown_mushroom_block.cap"
+  },
+  "brown_mushroom_block.mushroom": {
+    "id": 99,
+    "meta": 0,
+    "namespace": "brown_mushroom_block",
+    "tile": "brown_mushroom_block.mushroom"
+  },
+  "brown_mushroom_block.stem": {
+    "id": 99,
+    "meta": 10,
+    "namespace": "mushroom_stem",
+    "tile": "brown_mushroom_block.stem"
+  },
+  "bucketLava": {
+    "id": 10,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "lava | flowing_lava",
+    "tile": "bucketLava"
+  },
+  "bucketWater": {
+    "id": 9,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "water | flowing_water",
+    "tile": "bucketWater"
+  },
+  "cactus": {
+    "id": 81,
+    "meta": 0,
+    "namespace": "cactus",
+    "tile": "cactus"
+  },
+  "cake": {
+    "id": 92,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "cake",
+    "tile": "cake"
+  },
+  "camera": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "camera",
+    "tile": "camera"
+  },
+  "campfire": {
+    "id": null,
+    "meta": null,
+    "namespace": "campfire | $:campfire_off §blit§f=§cfalse§r",
+    "tile": "campfire"
+  },
+  "carpet": {
+    "id": 171,
+    "meta": 0,
+    "namespace": "white_carpet",
+    "tile": "carpet"
+  },
+  "carpet.black": {
+    "id": 171,
+    "meta": 15,
+    "namespace": "black_carpet",
+    "tile": "carpet.black"
+  },
+  "carpet.blue": {
+    "id": 171,
+    "meta": 11,
+    "namespace": "blue_carpet",
+    "tile": "carpet.blue"
+  },
+  "carpet.brown": {
+    "id": 171,
+    "meta": 12,
+    "namespace": "brown_carpet",
+    "tile": "carpet.brown"
+  },
+  "carpet.cyan": {
+    "id": 171,
+    "meta": 9,
+    "namespace": "cyan_carpet",
+    "tile": "carpet.cyan"
+  },
+  "carpet.gray": {
+    "id": 171,
+    "meta": 7,
+    "namespace": "gray_carpet",
+    "tile": "carpet.gray"
+  },
+  "carpet.green": {
+    "id": 171,
+    "meta": 13,
+    "namespace": "green_carpet",
+    "tile": "carpet.green"
+  },
+  "carpet.lightBlue": {
+    "id": 171,
+    "meta": 3,
+    "namespace": "light_blue_carpet",
+    "tile": "carpet.lightBlue"
+  },
+  "carpet.lime": {
+    "id": 171,
+    "meta": 5,
+    "namespace": "lime_carpet",
+    "tile": "carpet.lime"
+  },
+  "carpet.magenta": {
+    "id": 171,
+    "meta": 2,
+    "namespace": "magenta_carpet",
+    "tile": "carpet.magenta"
+  },
+  "carpet.orange": {
+    "id": 171,
+    "meta": 1,
+    "namespace": "orange_carpet",
+    "tile": "carpet.orange"
+  },
+  "carpet.pink": {
+    "id": 171,
+    "meta": 6,
+    "namespace": "pink_carpet",
+    "tile": "carpet.pink"
+  },
+  "carpet.purple": {
+    "id": 171,
+    "meta": 10,
+    "namespace": "purple_carpet",
+    "tile": "carpet.purple"
+  },
+  "carpet.red": {
+    "id": 171,
+    "meta": 14,
+    "namespace": "red_carpet",
+    "tile": "carpet.red"
+  },
+  "carpet.silver": {
+    "id": 171,
+    "meta": 8,
+    "namespace": "light_gray_carpet",
+    "tile": "carpet.silver"
+  },
+  "carpet.white": {
+    "id": 171,
+    "meta": 0,
+    "namespace": "white_carpet",
+    "tile": "carpet.white"
+  },
+  "carpet.yellow": {
+    "id": 171,
+    "meta": 4,
+    "namespace": "yellow_carpet",
+    "tile": "carpet.yellow"
+  },
+  "carrot": {
+    "id": 141,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "carrots",
+    "tile": "carrot"
+  },
+  "cartography_table": {
+    "id": null,
+    "meta": null,
+    "namespace": "cartography_table",
+    "tile": "cartography_table"
+  },
+  "carved_pumpkin": {
+    "id": null,
+    "meta": null,
+    "namespace": "carved_pumpkin",
+    "tile": "carved_pumpkin"
+  },
+  "cauldron": {
+    "id": 118,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "cauldron | $:cauldron_filled §blevel§f=§63§r",
+    "tile": "cauldron"
+  },
+  "chain": {
+    "id": null,
+    "meta": null,
+    "namespace": "chain",
+    "tile": "chain"
+  },
+  "chain_command_block": {
+    "id": 211,
+    "meta": 0,
+    "namespace": "chain_command_block",
+    "tile": "chain_command_block"
+  },
+  "chalkboard.oneByOne": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "chalkboard",
+    "tile": "chalkboard.oneByOne"
+  },
+  "chalkboard.threeByTwo": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "chalkboard",
+    "tile": "chalkboard.threeByTwo"
+  },
+  "chalkboard.twoByOne": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "chalkboard",
+    "tile": "chalkboard.twoByOne"
+  },
+  "charcoal": {
+    "id": 173,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "coal_block",
+    "tile": "charcoal"
+  },
+  "chest": {
+    "id": 54,
+    "meta": 0,
+    "namespace": "chest",
+    "tile": "chest"
+  },
+  "chiseled_nether_bricks": {
+    "id": null,
+    "meta": null,
+    "namespace": "chiseled_nether_bricks",
+    "tile": "chiseled_nether_bricks"
+  },
+  "chiseled_polished_blackstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "chiseled_polished_blackstone",
+    "tile": "chiseled_polished_blackstone"
+  },
+  "chorus_flower": {
+    "id": 200,
+    "meta": 0,
+    "namespace": "chorus_flower",
+    "tile": "chorus_flower"
+  },
+  "chorus_fruit": {
+    "id": 200,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "chorus_flower",
+    "tile": "chorus_fruit"
+  },
+  "chorus_plant": {
+    "id": 199,
+    "meta": 0,
+    "namespace": "chorus_plant",
+    "tile": "chorus_plant"
+  },
+  "clay": {
+    "id": 82,
+    "meta": 0,
+    "namespace": "clay",
+    "tile": "clay"
+  },
+  "clay_ball": {
+    "id": 82,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "clay",
+    "tile": "clay_ball"
+  },
+  "coal": {
+    "id": 173,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "coal_block",
+    "tile": "coal"
+  },
+  "coal_block": {
+    "id": 173,
+    "meta": 0,
+    "namespace": "coal_block",
+    "tile": "coal_block"
+  },
+  "coal_ore": {
+    "id": 16,
+    "meta": 0,
+    "namespace": "coal_ore",
+    "tile": "coal_ore"
+  },
+  "cobblestone": {
+    "id": 4,
+    "meta": 0,
+    "namespace": "cobblestone",
+    "tile": "cobblestone"
+  },
+  "cobblestone_wall.andesite": {
+    "id": null,
+    "meta": null,
+    "namespace": "cobblestone_wall",
+    "tile": "cobblestone_wall.andesite"
+  },
+  "cobblestone_wall.brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "brick_wall",
+    "tile": "cobblestone_wall.brick"
+  },
+  "cobblestone_wall.diorite": {
+    "id": null,
+    "meta": null,
+    "namespace": "diorite_wall",
+    "tile": "cobblestone_wall.diorite"
+  },
+  "cobblestone_wall.end_brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "end_stone_brick_wall",
+    "tile": "cobblestone_wall.end_brick"
+  },
+  "cobblestone_wall.granite": {
+    "id": null,
+    "meta": null,
+    "namespace": "granite_wall",
+    "tile": "cobblestone_wall.granite"
+  },
+  "cobblestone_wall.mossy": {
+    "id": 139,
+    "meta": 1,
+    "namespace": "mossy_cobblestone_wall",
+    "tile": "cobblestone_wall.mossy"
+  },
+  "cobblestone_wall.mossy_stone_brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "mossy_stone_brick_wall",
+    "tile": "cobblestone_wall.mossy_stone_brick"
+  },
+  "cobblestone_wall.nether_brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "nether_brick_wall",
+    "tile": "cobblestone_wall.nether_brick"
+  },
+  "cobblestone_wall.normal": {
+    "id": 139,
+    "meta": 0,
+    "namespace": "cobblestone_wall",
+    "tile": "cobblestone_wall.normal"
+  },
+  "cobblestone_wall.prismarine": {
+    "id": null,
+    "meta": null,
+    "namespace": "prismarine_wall",
+    "tile": "cobblestone_wall.prismarine"
+  },
+  "cobblestone_wall.red_nether_brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "red_nether_brick_wall",
+    "tile": "cobblestone_wall.red_nether_brick"
+  },
+  "cobblestone_wall.red_sandstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "red_sandstone_wall",
+    "tile": "cobblestone_wall.red_sandstone"
+  },
+  "cobblestone_wall.sandstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "sandstone_wall",
+    "tile": "cobblestone_wall.sandstone"
+  },
+  "cobblestone_wall.stone_brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "stone_brick_wall",
+    "tile": "cobblestone_wall.stone_brick"
+  },
+  "cocoa": {
+    "id": 127,
+    "meta": 0,
+    "namespace": "cocoa | $:cocoa_age_2 §bage§f=§63§r",
+    "tile": "cocoa"
+  },
+  "command_block": {
+    "id": 137,
+    "meta": 0,
+    "namespace": "command_block",
+    "tile": "command_block"
+  },
+  "comparator": {
+    "id": 149,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "comparator | $:comparator_powered §bpowered§f=§atrue§r",
+    "tile": "comparator"
+  },
+  "composter": {
+    "id": null,
+    "meta": null,
+    "namespace": "composter | $:composter_filled §blevel§f=§68§r",
+    "tile": "composter"
+  },
+  "concrete.black": {
+    "id": 251,
+    "meta": 15,
+    "namespace": "black_concrete",
+    "tile": "concrete.black"
+  },
+  "concrete.blue": {
+    "id": 251,
+    "meta": 11,
+    "namespace": "blue_concrete",
+    "tile": "concrete.blue"
+  },
+  "concrete.brown": {
+    "id": 251,
+    "meta": 12,
+    "namespace": "brown_concrete",
+    "tile": "concrete.brown"
+  },
+  "concrete.cyan": {
+    "id": 251,
+    "meta": 9,
+    "namespace": "cyan_concrete",
+    "tile": "concrete.cyan"
+  },
+  "concrete.gray": {
+    "id": 251,
+    "meta": 7,
+    "namespace": "gray_concrete",
+    "tile": "concrete.gray"
+  },
+  "concrete.green": {
+    "id": 251,
+    "meta": 13,
+    "namespace": "green_concrete",
+    "tile": "concrete.green"
+  },
+  "concrete.lightBlue": {
+    "id": 251,
+    "meta": 3,
+    "namespace": "light_blue_concrete",
+    "tile": "concrete.lightBlue"
+  },
+  "concrete.lime": {
+    "id": 251,
+    "meta": 5,
+    "namespace": "lime_concrete",
+    "tile": "concrete.lime"
+  },
+  "concrete.magenta": {
+    "id": 251,
+    "meta": 2,
+    "namespace": "magenta_concrete",
+    "tile": "concrete.magenta"
+  },
+  "concrete.orange": {
+    "id": 251,
+    "meta": 1,
+    "namespace": "orange_concrete",
+    "tile": "concrete.orange"
+  },
+  "concrete.pink": {
+    "id": 251,
+    "meta": 6,
+    "namespace": "pink_concrete",
+    "tile": "concrete.pink"
+  },
+  "concrete.purple": {
+    "id": 251,
+    "meta": 10,
+    "namespace": "purple_concrete",
+    "tile": "concrete.purple"
+  },
+  "concrete.red": {
+    "id": 251,
+    "meta": 14,
+    "namespace": "red_concrete",
+    "tile": "concrete.red"
+  },
+  "concrete.silver": {
+    "id": 251,
+    "meta": 8,
+    "namespace": "light_gray_concrete",
+    "tile": "concrete.silver"
+  },
+  "concrete.white": {
+    "id": 251,
+    "meta": 0,
+    "namespace": "white_concrete",
+    "tile": "concrete.white"
+  },
+  "concrete.yellow": {
+    "id": 251,
+    "meta": 4,
+    "namespace": "yellow_concrete",
+    "tile": "concrete.yellow"
+  },
+  "concretePowder.black": {
+    "id": 252,
+    "meta": 15,
+    "namespace": "black_concrete_powder",
+    "tile": "concretePowder.black"
+  },
+  "concretePowder.blue": {
+    "id": 252,
+    "meta": 11,
+    "namespace": "blue_concrete_powder",
+    "tile": "concretePowder.blue"
+  },
+  "concretePowder.brown": {
+    "id": 252,
+    "meta": 12,
+    "namespace": "brown_concrete_powder",
+    "tile": "concretePowder.brown"
+  },
+  "concretePowder.cyan": {
+    "id": 252,
+    "meta": 9,
+    "namespace": "cyan_concrete_powder",
+    "tile": "concretePowder.cyan"
+  },
+  "concretePowder.gray": {
+    "id": 252,
+    "meta": 7,
+    "namespace": "gray_concrete_powder",
+    "tile": "concretePowder.gray"
+  },
+  "concretePowder.green": {
+    "id": 252,
+    "meta": 13,
+    "namespace": "green_concrete_powder",
+    "tile": "concretePowder.green"
+  },
+  "concretePowder.lightBlue": {
+    "id": 252,
+    "meta": 3,
+    "namespace": "light_blue_concrete_powder",
+    "tile": "concretePowder.lightBlue"
+  },
+  "concretePowder.lime": {
+    "id": 252,
+    "meta": 5,
+    "namespace": "lime_concrete_powder",
+    "tile": "concretePowder.lime"
+  },
+  "concretePowder.magenta": {
+    "id": 252,
+    "meta": 2,
+    "namespace": "magenta_concrete_powder",
+    "tile": "concretePowder.magenta"
+  },
+  "concretePowder.orange": {
+    "id": 252,
+    "meta": 1,
+    "namespace": "orange_concrete_powder",
+    "tile": "concretePowder.orange"
+  },
+  "concretePowder.pink": {
+    "id": 252,
+    "meta": 6,
+    "namespace": "pink_concrete_powder",
+    "tile": "concretePowder.pink"
+  },
+  "concretePowder.purple": {
+    "id": 252,
+    "meta": 10,
+    "namespace": "purple_concrete_powder",
+    "tile": "concretePowder.purple"
+  },
+  "concretePowder.red": {
+    "id": 252,
+    "meta": 14,
+    "namespace": "red_concrete_powder",
+    "tile": "concretePowder.red"
+  },
+  "concretePowder.silver": {
+    "id": 252,
+    "meta": 8,
+    "namespace": "light_gray_concrete_powder",
+    "tile": "concretePowder.silver"
+  },
+  "concretePowder.white": {
+    "id": 252,
+    "meta": 0,
+    "namespace": "white_concrete_powder",
+    "tile": "concretePowder.white"
+  },
+  "concretePowder.yellow": {
+    "id": 252,
+    "meta": 4,
+    "namespace": "yellow_concrete_powder",
+    "tile": "concretePowder.yellow"
+  },
+  "conduit": {
+    "id": null,
+    "meta": null,
+    "namespace": "conduit§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "conduit"
+  },
+  "coral_block.blue": {
+    "id": null,
+    "meta": null,
+    "namespace": "tube_coral_block",
+    "tile": "coral_block.blue"
+  },
+  "coral_block.blue_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_tube_coral_block",
+    "tile": "coral_block.blue_dead"
+  },
+  "coral_block.pink": {
+    "id": null,
+    "meta": null,
+    "namespace": "brain_coral_block",
+    "tile": "coral_block.pink"
+  },
+  "coral_block.pink_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_brain_coral_block",
+    "tile": "coral_block.pink_dead"
+  },
+  "coral_block.purple": {
+    "id": null,
+    "meta": null,
+    "namespace": "bubble_coral_block",
+    "tile": "coral_block.purple"
+  },
+  "coral_block.purple_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_bubble_coral_block",
+    "tile": "coral_block.purple_dead"
+  },
+  "coral_block.red": {
+    "id": null,
+    "meta": null,
+    "namespace": "fire_coral_block",
+    "tile": "coral_block.red"
+  },
+  "coral_block.red_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_fire_coral_block",
+    "tile": "coral_block.red_dead"
+  },
+  "coral_block.yellow": {
+    "id": null,
+    "meta": null,
+    "namespace": "horn_coral_block",
+    "tile": "coral_block.yellow"
+  },
+  "coral_block.yellow_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_horn_coral_block",
+    "tile": "coral_block.yellow_dead"
+  },
+  "coral_fan_dead.blue_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_tube_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan_dead.blue_fan"
+  },
+  "coral_fan_dead.pink_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_brain_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan_dead.pink_fan"
+  },
+  "coral_fan_dead.purple_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_bubble_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan_dead.purple_fan"
+  },
+  "coral_fan_dead.red_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_fire_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan_dead.red_fan"
+  },
+  "coral_fan_dead.yellow_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_horn_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan_dead.yellow_fan"
+  },
+  "coral_fan.blue_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "tube_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan.blue_fan"
+  },
+  "coral_fan.pink_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "brain_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan.pink_fan"
+  },
+  "coral_fan.purple_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "bubble_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan.purple_fan"
+  },
+  "coral_fan.red_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "fire_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan.red_fan"
+  },
+  "coral_fan.yellow_fan": {
+    "id": null,
+    "meta": null,
+    "namespace": "horn_coral_fan§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral_fan.yellow_fan"
+  },
+  "coral.blue": {
+    "id": null,
+    "meta": null,
+    "namespace": "tube_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.blue"
+  },
+  "coral.blue_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_tube_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.blue_dead"
+  },
+  "coral.pink": {
+    "id": null,
+    "meta": null,
+    "namespace": "brain_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.pink"
+  },
+  "coral.pink_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_brain_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.pink_dead"
+  },
+  "coral.purple": {
+    "id": null,
+    "meta": null,
+    "namespace": "bubble_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.purple"
+  },
+  "coral.purple_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_bubble_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.purple_dead"
+  },
+  "coral.red": {
+    "id": null,
+    "meta": null,
+    "namespace": "fire_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.red"
+  },
+  "coral.red_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_fire_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.red_dead"
+  },
+  "coral.yellow": {
+    "id": null,
+    "meta": null,
+    "namespace": "horn_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.yellow"
+  },
+  "coral.yellow_dead": {
+    "id": null,
+    "meta": null,
+    "namespace": "dead_horn_coral§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "coral.yellow_dead"
+  },
+  "cracked_nether_bricks": {
+    "id": null,
+    "meta": null,
+    "namespace": "cracked_nether_bricks",
+    "tile": "cracked_nether_bricks"
+  },
+  "cracked_polished_blackstone_bricks": {
+    "id": null,
+    "meta": null,
+    "namespace": "cracked_polished_blackstone_bricks",
+    "tile": "cracked_polished_blackstone_bricks"
+  },
+  "crafting_table": {
+    "id": 58,
+    "meta": 0,
+    "namespace": "crafting_table",
+    "tile": "crafting_table"
+  },
+  "crimson_button": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_button | §bpowered§f=§atrue§r",
+    "tile": "crimson_button"
+  },
+  "crimson_door": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "crimson_door",
+    "tile": "crimson_door"
+  },
+  "crimson_double_slab": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_slab",
+    "tile": "crimson_double_slab"
+  },
+  "crimson_fence": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_fence",
+    "tile": "crimson_fence"
+  },
+  "crimson_fence_gate": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_fence_gate | §bin_wall§f=§atrue§r",
+    "tile": "crimson_fence_gate"
+  },
+  "crimson_fungus": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_fungus",
+    "tile": "crimson_fungus"
+  },
+  "crimson_hyphae": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_hyphae",
+    "tile": "crimson_hyphae"
+  },
+  "crimson_nylium": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_nylium",
+    "tile": "crimson_nylium"
+  },
+  "crimson_planks": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_planks",
+    "tile": "crimson_planks"
+  },
+  "crimson_pressure_plate": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_pressure_plate",
+    "tile": "crimson_pressure_plate"
+  },
+  "crimson_roots.crimsonRoots": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_roots",
+    "tile": "crimson_roots.crimsonRoots"
+  },
+  "crimson_sign": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "crimson_sign",
+    "tile": "crimson_sign"
+  },
+  "crimson_slab": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_slab",
+    "tile": "crimson_slab"
+  },
+  "crimson_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_stairs",
+    "tile": "crimson_stairs"
+  },
+  "crimson_standing_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_sign",
+    "tile": "crimson_standing_sign"
+  },
+  "crimson_stem": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_stem",
+    "tile": "crimson_stem"
+  },
+  "crimson_trapdoor": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_trapdoor",
+    "tile": "crimson_trapdoor"
+  },
+  "crimson_wall_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "crimson_sign",
+    "tile": "crimson_wall_sign"
+  },
+  "crying_obsidian": {
+    "id": null,
+    "meta": null,
+    "namespace": "crying_obsidian",
+    "tile": "crying_obsidian"
+  },
+  "dark_oak_button": {
+    "id": null,
+    "meta": null,
+    "namespace": "dark_oak_button | §bpowered§f=§atrue§r",
+    "tile": "dark_oak_button"
+  },
+  "dark_oak_door": {
+    "id": 197,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "dark_oak_door",
+    "tile": "dark_oak_door"
+  },
+  "dark_oak_fence_gate": {
+    "id": 186,
+    "meta": 0,
+    "namespace": "dark_oak_fence_gate | §bin_wall§f=§atrue§r",
+    "tile": "dark_oak_fence_gate"
+  },
+  "dark_oak_pressure_plate": {
+    "id": null,
+    "meta": null,
+    "namespace": "dark_oak_pressure_plate",
+    "tile": "dark_oak_pressure_plate"
+  },
+  "dark_oak_stairs": {
+    "id": 164,
+    "meta": 0,
+    "namespace": "dark_oak_stairs",
+    "tile": "dark_oak_stairs"
+  },
+  "dark_oak_trapdoor": {
+    "id": null,
+    "meta": null,
+    "namespace": "dark_oak_trapdoor",
+    "tile": "dark_oak_trapdoor"
+  },
+  "dark_prismarine_stairs": {
+    "id": 258,
+    "meta": 0,
+    "namespace": "dark_prismarine_stairs",
+    "tile": "dark_prismarine_stairs"
+  },
+  "darkoak_sign": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "dark_oak_sign",
+    "tile": "darkoak_sign"
+  },
+  "darkoak_standing_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "dark_oak_sign",
+    "tile": "darkoak_standing_sign"
+  },
+  "darkOakFence": {
+    "id": 191,
+    "meta": 0,
+    "namespace": "dark_oak_fence",
+    "tile": "darkOakFence"
+  },
+  "daylight_detector": {
+    "id": 151,
+    "meta": 0,
+    "namespace": "daylight_detector | $:daylight_detector_inverted §binverted§f=§atrue§r",
+    "tile": "daylight_detector"
+  },
+  "deadbush": {
+    "id": 32,
+    "meta": 0,
+    "namespace": "deadbush",
+    "tile": "deadbush"
+  },
+  "deny": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "deny",
+    "tile": "deny"
+  },
+  "detector_rail": {
+    "id": 28,
+    "meta": 0,
+    "namespace": "detector_rail",
+    "tile": "detector_rail"
+  },
+  "diamond": {
+    "id": 57,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "diamond_block",
+    "tile": "diamond"
+  },
+  "diamond_block": {
+    "id": 57,
+    "meta": 0,
+    "namespace": "diamond_block",
+    "tile": "diamond_block"
+  },
+  "diamond_ore": {
+    "id": 56,
+    "meta": 0,
+    "namespace": "diamond_ore",
+    "tile": "diamond_ore"
+  },
+  "diorite_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "diorite_stairs",
+    "tile": "diorite_stairs"
+  },
+  "dirt": {
+    "id": 3,
+    "meta": 0,
+    "namespace": "dirt",
+    "tile": "dirt"
+  },
+  "dirt.coarse": {
+    "id": 3,
+    "meta": 1,
+    "namespace": "dirt:1",
+    "tile": "dirt.coarse"
+  },
+  "dirt.default": {
+    "id": 3,
+    "meta": 0,
+    "namespace": "dirt",
+    "tile": "dirt.default"
+  },
+  "dispenser": {
+    "id": 23,
+    "meta": 0,
+    "namespace": "dispenser",
+    "tile": "dispenser"
+  },
+  "doorWood": {
+    "id": null,
+    "meta": null,
+    "namespace": "doorWood",
+    "tile": "doorWood"
+  },
+  "double_plant": {
+    "id": 175,
+    "meta": 0,
+    "namespace": "sunflower",
+    "tile": "double_plant"
+  },
+  "double_plant.fern": {
+    "id": 175,
+    "meta": 3,
+    "namespace": "large_fern",
+    "tile": "double_plant.fern"
+  },
+  "double_plant.grass": {
+    "id": 175,
+    "meta": 2,
+    "namespace": "tall_grass",
+    "tile": "double_plant.grass"
+  },
+  "double_plant.paeonia": {
+    "id": 175,
+    "meta": 5,
+    "namespace": "peony",
+    "tile": "double_plant.paeonia"
+  },
+  "double_plant.rose": {
+    "id": 175,
+    "meta": 4,
+    "namespace": "rose_bush",
+    "tile": "double_plant.rose"
+  },
+  "double_plant.sunflower": {
+    "id": 175,
+    "meta": 0,
+    "namespace": "sunflower",
+    "tile": "double_plant.sunflower"
+  },
+  "double_plant.syringa": {
+    "id": 175,
+    "meta": 1,
+    "namespace": "lilac",
+    "tile": "double_plant.syringa"
+  },
+  "double_stone_slab": {
+    "id": 43,
+    "meta": "Normal: 0 Smooth: 8 (smooth_stone)",
+    "namespace": "stone_slab",
+    "tile": "double_stone_slab"
+  },
+  "double_stone_slab.brick": {
+    "id": 43,
+    "meta": 4,
+    "namespace": "brick_slab",
+    "tile": "double_stone_slab.brick"
+  },
+  "double_stone_slab.cobble": {
+    "id": 43,
+    "meta": 3,
+    "namespace": "cobblestone_slab",
+    "tile": "double_stone_slab.cobble"
+  },
+  "double_stone_slab.nether_brick": {
+    "id": 43,
+    "meta": 6,
+    "namespace": "nether_brick_slab",
+    "tile": "double_stone_slab.nether_brick"
+  },
+  "double_stone_slab.quartz": {
+    "id": 43,
+    "meta": "Normal: 7 Smooth: 15 (smooth_quartz)",
+    "namespace": "quartz_slab",
+    "tile": "double_stone_slab.quartz"
+  },
+  "double_stone_slab.sand": {
+    "id": 43,
+    "meta": "Normal: 1 Smooth: 9 (smooth_sandstone)",
+    "namespace": "sandstone_slab",
+    "tile": "double_stone_slab.sand"
+  },
+  "double_stone_slab.smoothStoneBrick": {
+    "id": 43,
+    "meta": 5,
+    "namespace": "stone_brick_slab",
+    "tile": "double_stone_slab.smoothStoneBrick"
+  },
+  "double_stone_slab.stone": {
+    "id": 43,
+    "meta": "Normal: 0 Smooth: 8 (smooth_stone)",
+    "namespace": "stone_slab",
+    "tile": "double_stone_slab.stone"
+  },
+  "double_stone_slab.wood": {
+    "id": 43,
+    "meta": 2,
+    "namespace": "petrified_oak_slab",
+    "tile": "double_stone_slab.wood"
+  },
+  "double_stone_slab2.red_sandstone": {
+    "id": 181,
+    "meta": "Normal: 0 Smooth: 8 (smooth_red_sandstone)",
+    "namespace": "red_sandstone_slab",
+    "tile": "double_stone_slab2.red_sandstone"
+  },
+  "dragon_egg": {
+    "id": 122,
+    "meta": 0,
+    "namespace": "dragon_egg",
+    "tile": "dragon_egg"
+  },
+  "dried_kelp": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "dried_kelp_block",
+    "tile": "dried_kelp"
+  },
+  "dried_kelp_block": {
+    "id": null,
+    "meta": null,
+    "namespace": "dried_kelp_block",
+    "tile": "dried_kelp_block"
+  },
+  "dropper": {
+    "id": 158,
+    "meta": 0,
+    "namespace": "dropper",
+    "tile": "dropper"
+  },
+  "dye.brown": {
+    "id": 127,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "cocoa | $:cocoa_age_2 §bage§f=§63§r",
+    "tile": "dye.brown"
+  },
+  "dye.white": {
+    "id": 216,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "bone_block",
+    "tile": "dye.white"
+  },
+  "emerald": {
+    "id": 133,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "emerald_block",
+    "tile": "emerald"
+  },
+  "emerald_block": {
+    "id": 133,
+    "meta": 0,
+    "namespace": "emerald_block",
+    "tile": "emerald_block"
+  },
+  "emerald_ore": {
+    "id": 129,
+    "meta": 0,
+    "namespace": "emerald_ore",
+    "tile": "emerald_ore"
+  },
+  "enchanting_table": {
+    "id": 116,
+    "meta": 0,
+    "namespace": "enchanting_table",
+    "tile": "enchanting_table"
+  },
+  "end_brick_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "end_stone_brick_stairs",
+    "tile": "end_brick_stairs"
+  },
+  "end_bricks": {
+    "id": 206,
+    "meta": 0,
+    "namespace": "end_stone_bricks",
+    "tile": "end_bricks"
+  },
+  "end_portal": {
+    "id": 119,
+    "meta": 0,
+    "namespace": "end_portal",
+    "tile": "end_portal"
+  },
+  "end_portal_frame": {
+    "id": 120,
+    "meta": 0,
+    "namespace": "end_portal_frame | $:end_portal_frame_eye §beye§f=§atrue§r",
+    "tile": "end_portal_frame"
+  },
+  "end_rod": {
+    "id": 198,
+    "meta": 0,
+    "namespace": "end_rod",
+    "tile": "end_rod"
+  },
+  "end_stone": {
+    "id": 121,
+    "meta": 0,
+    "namespace": "end_stone",
+    "tile": "end_stone"
+  },
+  "ender_chest": {
+    "id": 130,
+    "meta": 0,
+    "namespace": "ender_chest",
+    "tile": "ender_chest"
+  },
+  "enderChest": {
+    "id": 130,
+    "meta": 0,
+    "namespace": "ender_chest",
+    "tile": "enderChest"
+  },
+  "farmland": {
+    "id": 60,
+    "meta": 0,
+    "namespace": "farmland | $:farmland_moist §bmoisture§f=§67§r",
+    "tile": "farmland"
+  },
+  "fence": {
+    "id": 85,
+    "meta": 0,
+    "namespace": "oak_fence",
+    "tile": "fence"
+  },
+  "fence_gate": {
+    "id": 107,
+    "meta": 0,
+    "namespace": "oak_fence_gate | §bin_wall§f=§atrue§r",
+    "tile": "fence_gate"
+  },
+  "fire": {
+    "id": 51,
+    "meta": 0,
+    "namespace": "fire",
+    "tile": "fire"
+  },
+  "fletching_table": {
+    "id": null,
+    "meta": null,
+    "namespace": "fletching_table",
+    "tile": "fletching_table"
+  },
+  "flint": {
+    "id": 13,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "gravel",
+    "tile": "flint"
+  },
+  "flower_pot": {
+    "id": 140,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "flower_pot",
+    "tile": "flower_pot"
+  },
+  "flowing_lava": {
+    "id": 10,
+    "meta": 0,
+    "namespace": "lava",
+    "tile": "flowing_lava"
+  },
+  "flowing_water": {
+    "id": 8,
+    "meta": 0,
+    "namespace": "flowing_water",
+    "tile": "flowing_water"
+  },
+  "frame": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": null,
+    "tile": "frame"
+  },
+  "furnace": {
+    "id": 61,
+    "meta": 0,
+    "namespace": "furnace | $:furnace_lit §blit§f=§atrue§r",
+    "tile": "furnace"
+  },
+  "gilded_blackstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "gilded_blackstone",
+    "tile": "gilded_blackstone"
+  },
+  "glass": {
+    "id": 20,
+    "meta": 0,
+    "namespace": "glass",
+    "tile": "glass"
+  },
+  "glass_pane": {
+    "id": 102,
+    "meta": 0,
+    "namespace": "glass_pane",
+    "tile": "glass_pane"
+  },
+  "glazedTerracotta.black": {
+    "id": 250,
+    "meta": 0,
+    "namespace": "black_glazed_terracotta",
+    "tile": "glazedTerracotta.black"
+  },
+  "glazedTerracotta.blue": {
+    "id": 246,
+    "meta": 0,
+    "namespace": "blue_glazed_terracotta",
+    "tile": "glazedTerracotta.blue"
+  },
+  "glazedTerracotta.brown": {
+    "id": 247,
+    "meta": 0,
+    "namespace": "brown_glazed_terracotta",
+    "tile": "glazedTerracotta.brown"
+  },
+  "glazedTerracotta.cyan": {
+    "id": 244,
+    "meta": 0,
+    "namespace": "cyan_glazed_terracotta",
+    "tile": "glazedTerracotta.cyan"
+  },
+  "glazedTerracotta.gray": {
+    "id": 242,
+    "meta": 0,
+    "namespace": "gray_glazed_terracotta",
+    "tile": "glazedTerracotta.gray"
+  },
+  "glazedTerracotta.green": {
+    "id": 248,
+    "meta": 0,
+    "namespace": "green_glazed_terracotta",
+    "tile": "glazedTerracotta.green"
+  },
+  "glazedTerracotta.light_blue": {
+    "id": 238,
+    "meta": 0,
+    "namespace": "light_blue_glazed_terracotta",
+    "tile": "glazedTerracotta.light_blue"
+  },
+  "glazedTerracotta.lime": {
+    "id": 240,
+    "meta": 0,
+    "namespace": "lime_glazed_terracotta",
+    "tile": "glazedTerracotta.lime"
+  },
+  "glazedTerracotta.magenta": {
+    "id": 237,
+    "meta": 0,
+    "namespace": "magenta_glazed_terracotta",
+    "tile": "glazedTerracotta.magenta"
+  },
+  "glazedTerracotta.orange": {
+    "id": 236,
+    "meta": 0,
+    "namespace": "orange_glazed_terracotta",
+    "tile": "glazedTerracotta.orange"
+  },
+  "glazedTerracotta.pink": {
+    "id": 241,
+    "meta": 0,
+    "namespace": "pink_glazed_terracotta",
+    "tile": "glazedTerracotta.pink"
+  },
+  "glazedTerracotta.purple": {
+    "id": 245,
+    "meta": 0,
+    "namespace": "purple_glazed_terracotta",
+    "tile": "glazedTerracotta.purple"
+  },
+  "glazedTerracotta.red": {
+    "id": 249,
+    "meta": 0,
+    "namespace": "red_glazed_terracotta",
+    "tile": "glazedTerracotta.red"
+  },
+  "glazedTerracotta.silver": {
+    "id": 243,
+    "meta": 0,
+    "namespace": "silver_glazed_terracotta",
+    "tile": "glazedTerracotta.silver"
+  },
+  "glazedTerracotta.white": {
+    "id": 235,
+    "meta": 0,
+    "namespace": "white_glazed_terracotta",
+    "tile": "glazedTerracotta.white"
+  },
+  "glazedTerracotta.yellow": {
+    "id": 239,
+    "meta": 0,
+    "namespace": "yellow_glazed_terracotta",
+    "tile": "glazedTerracotta.yellow"
+  },
+  "glazedTerracottaBlack": {
+    "id": 250,
+    "meta": 0,
+    "namespace": "black_glazed_terracotta",
+    "tile": "glazedTerracottaBlack"
+  },
+  "glazedTerracottaBlue": {
+    "id": 246,
+    "meta": 0,
+    "namespace": "blue_glazed_terracotta",
+    "tile": "glazedTerracottaBlue"
+  },
+  "glazedTerracottaBrown": {
+    "id": 247,
+    "meta": 0,
+    "namespace": "brown_glazed_terracotta",
+    "tile": "glazedTerracottaBrown"
+  },
+  "glazedTerracottaCyan": {
+    "id": 244,
+    "meta": 0,
+    "namespace": "cyan_glazed_terracotta",
+    "tile": "glazedTerracottaCyan"
+  },
+  "glazedTerracottaGray": {
+    "id": 242,
+    "meta": 0,
+    "namespace": "gray_glazed_terracotta",
+    "tile": "glazedTerracottaGray"
+  },
+  "glazedTerracottaGreen": {
+    "id": 248,
+    "meta": 0,
+    "namespace": "green_glazed_terracotta",
+    "tile": "glazedTerracottaGreen"
+  },
+  "glazedTerracottaLightBlue": {
+    "id": 238,
+    "meta": 0,
+    "namespace": "light_blue_glazed_terracotta",
+    "tile": "glazedTerracottaLightBlue"
+  },
+  "glazedTerracottaLime": {
+    "id": 240,
+    "meta": 0,
+    "namespace": "lime_glazed_terracotta",
+    "tile": "glazedTerracottaLime"
+  },
+  "glazedTerracottaMagenta": {
+    "id": 237,
+    "meta": 0,
+    "namespace": "magenta_glazed_terracotta",
+    "tile": "glazedTerracottaMagenta"
+  },
+  "glazedTerracottaOrange": {
+    "id": 236,
+    "meta": 0,
+    "namespace": "orange_glazed_terracotta",
+    "tile": "glazedTerracottaOrange"
+  },
+  "glazedTerracottaPink": {
+    "id": 241,
+    "meta": 0,
+    "namespace": "pink_glazed_terracotta",
+    "tile": "glazedTerracottaPink"
+  },
+  "glazedTerracottaPurple": {
+    "id": 245,
+    "meta": 0,
+    "namespace": "purple_glazed_terracotta",
+    "tile": "glazedTerracottaPurple"
+  },
+  "glazedTerracottaRed": {
+    "id": 249,
+    "meta": 0,
+    "namespace": "red_glazed_terracotta",
+    "tile": "glazedTerracottaRed"
+  },
+  "glazedTerracottaSilver": {
+    "id": 243,
+    "meta": 0,
+    "namespace": "silver_glazed_terracotta",
+    "tile": "glazedTerracottaSilver"
+  },
+  "glazedTerracottaWhite": {
+    "id": 235,
+    "meta": 0,
+    "namespace": "white_glazed_terracotta",
+    "tile": "glazedTerracottaWhite"
+  },
+  "glazedTerracottaYellow": {
+    "id": 239,
+    "meta": 0,
+    "namespace": "yellow_glazed_terracotta",
+    "tile": "glazedTerracottaYellow"
+  },
+  "glowstone": {
+    "id": 89,
+    "meta": 0,
+    "namespace": "glowstone",
+    "tile": "glowstone"
+  },
+  "glowstone_dust": {
+    "id": 89,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "glowstone",
+    "tile": "glowstone_dust"
+  },
+  "gold_block": {
+    "id": 41,
+    "meta": 0,
+    "namespace": "gold_block",
+    "tile": "gold_block"
+  },
+  "gold_ingot": {
+    "id": 41,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "gold_block",
+    "tile": "gold_ingot"
+  },
+  "gold_nugget": {
+    "id": 41,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "gold_block",
+    "tile": "gold_nugget"
+  },
+  "gold_ore": {
+    "id": 14,
+    "meta": 0,
+    "namespace": "gold_ore",
+    "tile": "gold_ore"
+  },
+  "golden_carrot": {
+    "id": 141,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "carrots",
+    "tile": "golden_carrot"
+  },
+  "golden_rail": {
+    "id": 27,
+    "meta": 0,
+    "namespace": "powered_rail",
+    "tile": "golden_rail"
+  },
+  "granite_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "granite_stairs",
+    "tile": "granite_stairs"
+  },
+  "grass": {
+    "id": 2,
+    "meta": 0,
+    "namespace": "grass_block",
+    "tile": "grass"
+  },
+  "grass_path": {
+    "id": 208,
+    "meta": 0,
+    "namespace": "grass_path",
+    "tile": "grass_path"
+  },
+  "gravel": {
+    "id": 13,
+    "meta": 0,
+    "namespace": "gravel",
+    "tile": "gravel"
+  },
+  "grindstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "grindstone",
+    "tile": "grindstone"
+  },
+  "hardened_clay": {
+    "id": 172,
+    "meta": 0,
+    "namespace": "terracotta",
+    "tile": "hardened_clay"
+  },
+  "hay_block": {
+    "id": 170,
+    "meta": 0,
+    "namespace": "hay_block",
+    "tile": "hay_block"
+  },
+  "heavy_weighted_pressure_plate": {
+    "id": 148,
+    "meta": 0,
+    "namespace": "heavy_weighted_pressure_plate",
+    "tile": "heavy_weighted_pressure_plate"
+  },
+  "honey_block": {
+    "id": null,
+    "meta": null,
+    "namespace": "honey_block",
+    "tile": "honey_block"
+  },
+  "honey_bottle": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "honey_block",
+    "tile": "honey_bottle"
+  },
+  "honeycomb": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "honeycomb_block",
+    "tile": "honeycomb"
+  },
+  "honeycomb_block": {
+    "id": null,
+    "meta": null,
+    "namespace": "honeycomb_block",
+    "tile": "honeycomb_block"
+  },
+  "hopper": {
+    "id": 154,
+    "meta": 0,
+    "namespace": "hopper",
+    "tile": "hopper"
+  },
+  "ice": {
+    "id": 79,
+    "meta": 0,
+    "namespace": "ice",
+    "tile": "ice"
+  },
+  "invisibleBedrock": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "invisibleBedrock",
+    "tile": "invisibleBedrock"
+  },
+  "iron_bars": {
+    "id": 101,
+    "meta": 0,
+    "namespace": "iron_bars",
+    "tile": "iron_bars"
+  },
+  "iron_block": {
+    "id": 42,
+    "meta": 0,
+    "namespace": "iron_block",
+    "tile": "iron_block"
+  },
+  "iron_door": {
+    "id": 71,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "iron_door",
+    "tile": "iron_door"
+  },
+  "iron_ingot": {
+    "id": 42,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "iron_block",
+    "tile": "iron_ingot"
+  },
+  "iron_nugget": {
+    "id": 42,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "iron_block",
+    "tile": "iron_nugget"
+  },
+  "iron_ore": {
+    "id": 15,
+    "meta": 0,
+    "namespace": "iron_ore",
+    "tile": "iron_ore"
+  },
+  "iron_trapdoor": {
+    "id": 167,
+    "meta": 0,
+    "namespace": "iron_trapdoor",
+    "tile": "iron_trapdoor"
+  },
+  "jigsaw": {
+    "id": null,
+    "meta": null,
+    "namespace": "jigsaw",
+    "tile": "jigsaw"
+  },
+  "jukebox": {
+    "id": 84,
+    "meta": 0,
+    "namespace": "jukebox",
+    "tile": "jukebox"
+  },
+  "jungle_button": {
+    "id": null,
+    "meta": null,
+    "namespace": "jungle_button | §bpowered§f=§atrue§r",
+    "tile": "jungle_button"
+  },
+  "jungle_door": {
+    "id": 195,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "jungle_door",
+    "tile": "jungle_door"
+  },
+  "jungle_fence_gate": {
+    "id": 185,
+    "meta": 0,
+    "namespace": "jungle_fence_gate | §bin_wall§f=§atrue§r",
+    "tile": "jungle_fence_gate"
+  },
+  "jungle_pressure_plate": {
+    "id": null,
+    "meta": null,
+    "namespace": "jungle_pressure_plate",
+    "tile": "jungle_pressure_plate"
+  },
+  "jungle_sign": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "jungle_sign",
+    "tile": "jungle_sign"
+  },
+  "jungle_stairs": {
+    "id": 136,
+    "meta": 0,
+    "namespace": "jungle_stairs",
+    "tile": "jungle_stairs"
+  },
+  "jungle_standing_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "jungle_sign",
+    "tile": "jungle_standing_sign"
+  },
+  "jungle_trapdoor": {
+    "id": null,
+    "meta": null,
+    "namespace": "jungle_trapdoor",
+    "tile": "jungle_trapdoor"
+  },
+  "jungleFence": {
+    "id": 190,
+    "meta": 0,
+    "namespace": "birch_fence",
+    "tile": "jungleFence"
+  },
+  "kelp": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "kelp§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "kelp"
+  },
+  "ladder": {
+    "id": 65,
+    "meta": 0,
+    "namespace": "ladder",
+    "tile": "ladder"
+  },
+  "lantern": {
+    "id": null,
+    "meta": null,
+    "namespace": "lantern",
+    "tile": "lantern"
+  },
+  "lapis_block": {
+    "id": 22,
+    "meta": 0,
+    "namespace": "lapis_block",
+    "tile": "lapis_block"
+  },
+  "lapis_lazuli": {
+    "id": 22,
+    "meta": 0,
+    "namespace": "lapis_block",
+    "tile": "lapis_block"
+  },
+  "lapis_ore": {
+    "id": 21,
+    "meta": 0,
+    "namespace": "lapis_ore",
+    "tile": "lapis_ore"
+  },
+  "leaves": {
+    "id": 18,
+    "meta": 0,
+    "namespace": "oak_leaves",
+    "tile": "leaves"
+  },
+  "leaves.acacia": {
+    "id": 161,
+    "meta": 0,
+    "namespace": "acacia_leaves",
+    "tile": "leaves.acacia"
+  },
+  "leaves.big_oak": {
+    "id": 161,
+    "meta": 1,
+    "namespace": "dark_oak_leaves",
+    "tile": "leaves.big_oak"
+  },
+  "leaves.birch": {
+    "id": 18,
+    "meta": 2,
+    "namespace": "birch_leaves",
+    "tile": "leaves.birch"
+  },
+  "leaves.jungle": {
+    "id": 18,
+    "meta": 3,
+    "namespace": "jungle_leaves",
+    "tile": "leaves.jungle"
+  },
+  "leaves.oak": {
+    "id": 18,
+    "meta": 0,
+    "namespace": "oak_leaves",
+    "tile": "leaves.oak"
+  },
+  "leaves.spruce": {
+    "id": 18,
+    "meta": 1,
+    "namespace": "spruce_leaves",
+    "tile": "leaves.spruce"
+  },
+  "leaves2.acacia": {
+    "id": 161,
+    "meta": 0,
+    "namespace": "acacia_leaves",
+    "tile": "leaves2.acacia"
+  },
+  "leaves2.big_oak": {
+    "id": 161,
+    "meta": 1,
+    "namespace": "dark_oak_leaves",
+    "tile": "leaves2.big_oak"
+  },
+  "lectern": {
+    "id": null,
+    "meta": null,
+    "namespace": "lectern",
+    "tile": "lectern"
+  },
+  "lever": {
+    "id": 69,
+    "meta": 0,
+    "namespace": "lever",
+    "tile": "lever"
+  },
+  "light_block": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "light_block",
+    "tile": "light_block"
+  },
+  "light_weighted_pressure_plate": {
+    "id": 147,
+    "meta": 0,
+    "namespace": "light_weighted_pressure_plate",
+    "tile": "light_weighted_pressure_plate"
+  },
+  "lit_pumpkin": {
+    "id": 91,
+    "meta": 0,
+    "namespace": "jack_o_lantern",
+    "tile": "lit_pumpkin"
+  },
+  "lockedchest": {
+    "id": null,
+    "meta": null,
+    "namespace": "lockedchest",
+    "tile": "lockedchest"
+  },
+  "lodestone": {
+    "id": null,
+    "meta": null,
+    "namespace": "lodestone",
+    "tile": "lodestone"
+  },
+  "log": {
+    "id": 17,
+    "meta": 0,
+    "namespace": "oak_log",
+    "tile": "log"
+  },
+  "log.acacia": {
+    "id": 162,
+    "meta": 0,
+    "namespace": "acacia_log",
+    "tile": "log.acacia"
+  },
+  "log.big_oak": {
+    "id": 162,
+    "meta": 1,
+    "namespace": "dark_oak_log",
+    "tile": "log.big_oak"
+  },
+  "log.birch": {
+    "id": 17,
+    "meta": 2,
+    "namespace": "birch_log",
+    "tile": "log.birch"
+  },
+  "log.jungle": {
+    "id": 17,
+    "meta": 3,
+    "namespace": "jungle_log",
+    "tile": "log.jungle"
+  },
+  "log.oak": {
+    "id": 17,
+    "meta": 0,
+    "namespace": "oak_log",
+    "tile": "log.oak"
+  },
+  "log.spruce": {
+    "id": 17,
+    "meta": 1,
+    "namespace": "spruce_log",
+    "tile": "log.spruce"
+  },
+  "loom": {
+    "id": null,
+    "meta": null,
+    "namespace": "loom",
+    "tile": "loom"
+  },
+  "magma": {
+    "id": 213,
+    "meta": 0,
+    "namespace": "magma_block",
+    "tile": "magma"
+  },
+  "melon": {
+    "id": 103,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "melon",
+    "tile": "melon"
+  },
+  "melon_block": {
+    "id": 103,
+    "meta": 0,
+    "namespace": "melon",
+    "tile": "melon_block"
+  },
+  "melon_seeds": {
+    "id": 105,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "melon_stem",
+    "tile": "melon_seeds"
+  },
+  "mob_spawner": {
+    "id": 52,
+    "meta": "0/1",
+    "namespace": "spawner",
+    "tile": "mob_spawner"
+  },
+  "monster_egg": {
+    "id": 97,
+    "meta": 0,
+    "namespace": "infested_stone",
+    "tile": "monster_egg"
+  },
+  "monster_egg.brick": {
+    "id": 97,
+    "meta": 2,
+    "namespace": "infested_Stone_bricks",
+    "tile": "monster_egg.brick"
+  },
+  "monster_egg.chiseledbrick": {
+    "id": 97,
+    "meta": 5,
+    "namespace": "infested_chiseled_stone_bricks",
+    "tile": "monster_egg.chiseledbrick"
+  },
+  "monster_egg.cobble": {
+    "id": 97,
+    "meta": 1,
+    "namespace": "infested_cobblestone",
+    "tile": "monster_egg.cobble"
+  },
+  "monster_egg.crackedbrick": {
+    "id": 97,
+    "meta": 4,
+    "namespace": "infested_cracked_stone_bricks",
+    "tile": "monster_egg.crackedbrick"
+  },
+  "monster_egg.mossybrick": {
+    "id": 97,
+    "meta": 3,
+    "namespace": "infested_mossy_stone_bricks",
+    "tile": "monster_egg.mossybrick"
+  },
+  "monster_egg.stone": {
+    "id": 97,
+    "meta": 0,
+    "namespace": "infested_stone",
+    "tile": "monster_egg.stone"
+  },
+  "mossy_cobblestone": {
+    "id": 48,
+    "meta": 0,
+    "namespace": "mossy_cobblestone",
+    "tile": "mossy_cobblestone"
+  },
+  "mossy_cobblestone_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "mossy_cobblestone_stairs",
+    "tile": "mossy_cobblestone_stairs"
+  },
+  "mossy_stone_brick_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "mossy_stone_brick_stairs",
+    "tile": "mossy_stone_brick_stairs"
+  },
+  "mushroom": {
+    "id": null,
+    "meta": null,
+    "namespace": "mushroom",
+    "tile": "mushroom"
+  },
+  "mycelium": {
+    "id": 110,
+    "meta": 0,
+    "namespace": "mycelium",
+    "tile": "mycelium"
+  },
+  "nether_brick": {
+    "id": 112,
+    "meta": 0,
+    "namespace": "nether_bricks",
+    "tile": "nether_brick"
+  },
+  "nether_brick_fence": {
+    "id": 113,
+    "meta": 0,
+    "namespace": "nether_brick_fence",
+    "tile": "nether_brick_fence"
+  },
+  "nether_brick_stairs": {
+    "id": 114,
+    "meta": 0,
+    "namespace": "nether_brick_stairs",
+    "tile": "nether_brick_stairs"
+  },
+  "nether_gold_ore": {
+    "id": null,
+    "meta": null,
+    "namespace": "nether_gold_ore",
+    "tile": "nether_gold_ore"
+  },
+  "nether_sprouts": {
+    "id": null,
+    "meta": null,
+    "namespace": "nether_sprouts",
+    "tile": "nether_sprouts"
+  },
+  "nether_wart": {
+    "id": 115,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "nether_wart",
+    "tile": "nether_wart"
+  },
+  "nether_wart_block": {
+    "id": 214,
+    "meta": 0,
+    "namespace": "nether_wart_block",
+    "tile": "nether_wart_block"
+  },
+  "netherbrick": {
+    "id": 112,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "nether_bricks",
+    "tile": "netherbrick"
+  },
+  "netherite_block": {
+    "id": null,
+    "meta": null,
+    "namespace": "netherite_block",
+    "tile": "netherite_block"
+  },
+  "netherite_ingot": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "netherite_block",
+    "tile": "netherite_ingot"
+  },
+  "netherite_scrap": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "netherite_block",
+    "tile": "netherite_scrap"
+  },
+  "netherrack": {
+    "id": 87,
+    "meta": 0,
+    "namespace": "netherrack",
+    "tile": "netherrack"
+  },
+  "netherreactor": {
+    "id": null,
+    "isBedrockOnly": true,
+    "meta": null,
+    "namespace": "netherreactor",
+    "tile": "netherreactor"
+  },
+  "normal_stone_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "stone_stairs",
+    "tile": "normal_stone_stairs"
+  },
+  "noteblock": {
+    "id": 25,
+    "meta": 0,
+    "namespace": "note_block",
+    "tile": "noteblock"
+  },
+  "oak_stairs": {
+    "id": 53,
+    "meta": 0,
+    "namespace": "oak_stairs",
+    "tile": "oak_stairs"
+  },
+  "observer": {
+    "id": 218,
+    "meta": 0,
+    "namespace": "observer | $:observer_powered §bpowered§f=§atrue§r",
+    "tile": "observer"
+  },
+  "obsidian": {
+    "id": 49,
+    "meta": 0,
+    "namespace": "obsidian",
+    "tile": "obsidian"
+  },
+  "oreRuby": {
+    "id": null,
+    "meta": null,
+    "namespace": "oreRuby",
+    "tile": "oreRuby"
+  },
+  "packed_ice": {
+    "id": 174,
+    "meta": 0,
+    "namespace": "packed_ice",
+    "tile": "packed_ice"
+  },
+  "piston": {
+    "id": 33,
+    "meta": 0,
+    "namespace": "piston",
+    "tile": "piston"
+  },
+  "planks": {
+    "id": 5,
+    "meta": 0,
+    "namespace": "oak_planks",
+    "tile": "planks"
+  },
+  "planks.acacia": {
+    "id": 5,
+    "meta": 4,
+    "namespace": "acacia_planks",
+    "tile": "planks.acacia"
+  },
+  "planks.big_oak": {
+    "id": 5,
+    "meta": 5,
+    "namespace": "dark_oak_planks",
+    "tile": "planks.big_oak"
+  },
+  "planks.birch": {
+    "id": 5,
+    "meta": 2,
+    "namespace": "birch_planks",
+    "tile": "planks.birch"
+  },
+  "planks.jungle": {
+    "id": 5,
+    "meta": 3,
+    "namespace": "jungle_planks",
+    "tile": "planks.jungle"
+  },
+  "planks.oak": {
+    "id": 5,
+    "meta": 0,
+    "namespace": "oak_planks",
+    "tile": "planks.oak"
+  },
+  "planks.spruce": {
+    "id": 5,
+    "meta": 1,
+    "namespace": "spruce_planks",
+    "tile": "planks.spruce"
+  },
+  "podzol": {
+    "id": null,
+    "meta": null,
+    "namespace": "podzol",
+    "tile": "podzol"
+  },
+  "poisonous_potato": {
+    "id": 142,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "potatoes",
+    "tile": "poisonous_potato"
+  },
+  "polished_andesite_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_andesite_stairs",
+    "tile": "polished_andesite_stairs"
+  },
+  "polished_basalt": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_basalt",
+    "tile": "polished_basalt"
+  },
+  "polished_blackstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone",
+    "tile": "polished_blackstone"
+  },
+  "polished_blackstone_brick_slab": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_brick_slab",
+    "tile": "polished_blackstone_brick_slab"
+  },
+  "polished_blackstone_brick_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_brick_stairs",
+    "tile": "polished_blackstone_brick_stairs"
+  },
+  "polished_blackstone_brick_wall": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_brick_wall",
+    "tile": "polished_blackstone_brick_wall"
+  },
+  "polished_blackstone_bricks": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_bricks",
+    "tile": "polished_blackstone_bricks"
+  },
+  "polished_blackstone_button": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_button | §bpowered§f=§atrue§r",
+    "tile": "polished_blackstone_button"
+  },
+  "polished_blackstone_pressure_plate": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_pressure_plate",
+    "tile": "polished_blackstone_pressure_plate"
+  },
+  "polished_blackstone_slab": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_slab",
+    "tile": "polished_blackstone_slab"
+  },
+  "polished_blackstone_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_stairs",
+    "tile": "polished_blackstone_stairs"
+  },
+  "polished_blackstone_wall": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_blackstone_wall",
+    "tile": "polished_blackstone_wall"
+  },
+  "polished_diorite_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_diorite_stairs",
+    "tile": "polished_diorite_stairs"
+  },
+  "polished_granite_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_granite_stairs",
+    "tile": "polished_granite_stairs"
+  },
+  "portal": {
+    "id": 90,
+    "meta": 0,
+    "namespace": "nether_portal",
+    "tile": "portal"
+  },
+  "potato": {
+    "id": 142,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "potatoes",
+    "tile": "potato"
+  },
+  "potatoes": {
+    "id": 142,
+    "meta": 0,
+    "namespace": "potatoes",
+    "tile": "potatoes"
+  },
+  "prismarine_bricks_stairs": {
+    "id": 259,
+    "meta": 0,
+    "namespace": "prismarine_brick_stairs",
+    "tile": "prismarine_bricks_stairs"
+  },
+  "prismarine_stairs": {
+    "id": 257,
+    "meta": 0,
+    "namespace": "prismarine_stairs",
+    "tile": "prismarine_stairs"
+  },
+  "prismarine.bricks": {
+    "id": 168,
+    "meta": 1,
+    "namespace": "prismarine_bricks",
+    "tile": "prismarine.bricks"
+  },
+  "prismarine.dark": {
+    "id": 168,
+    "meta": 2,
+    "namespace": "dark_prismarine",
+    "tile": "prismarine.dark"
+  },
+  "prismarine.rough": {
+    "id": 168,
+    "meta": 0,
+    "namespace": "prismarine",
+    "tile": "prismarine.rough"
+  },
+  "pumpkin": {
+    "id": 86,
+    "meta": 0,
+    "namespace": "pumpkin | carved_pumpkin",
+    "tile": "pumpkin"
+  },
+  "pumpkin_seeds": {
+    "id": 104,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "pumpkin_stem",
+    "tile": "pumpkin_seeds"
+  },
+  "pumpkin_stem": {
+    "id": 104,
+    "meta": 0,
+    "namespace": "pumpkin_stem",
+    "tile": "pumpkin_stem"
+  },
+  "purpur_block.chiseled": {
+    "id": 201,
+    "meta": 0,
+    "namespace": "purpur_block",
+    "tile": "purpur_block.chiseled"
+  },
+  "purpur_block.default": {
+    "id": 201,
+    "meta": 0,
+    "namespace": "purpur_block",
+    "tile": "purpur_block.default"
+  },
+  "purpur_block.lines": {
+    "id": 202,
+    "meta": 0,
+    "namespace": "purpur_pillar",
+    "tile": "purpur_block.lines"
+  },
+  "purpur_stairs": {
+    "id": 203,
+    "meta": 0,
+    "namespace": "purpur_stairs",
+    "tile": "purpur_stairs"
+  },
+  "quartz": {
+    "id": 155,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "quartz_block",
+    "tile": "quartz"
+  },
+  "quartz_block": {
+    "id": 155,
+    "meta": 0,
+    "namespace": "quartz_block",
+    "tile": "quartz_block"
+  },
+  "quartz_block.chiseled": {
+    "id": 155,
+    "meta": 1,
+    "namespace": "quartz_block:1",
+    "tile": "quartz_block.chiseled"
+  },
+  "quartz_block.default": {
+    "id": 155,
+    "meta": 0,
+    "namespace": "quartz_block",
+    "tile": "quartz_block.default"
+  },
+  "quartz_block.lines": {
+    "id": 155,
+    "meta": 2,
+    "namespace": "quartz_block:2",
+    "tile": "quartz_block.lines"
+  },
+  "quartz_block.smooth": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_quartz",
+    "tile": "quartz_block.smooth"
+  },
+  "quartz_bricks": {
+    "id": null,
+    "meta": null,
+    "namespace": "quartz_bricks",
+    "tile": "quartz_bricks"
+  },
+  "quartz_ore": {
+    "id": 153,
+    "meta": 0,
+    "namespace": "nether_quartz_ore",
+    "tile": "quartz_ore"
+  },
+  "quartz_stairs": {
+    "id": 156,
+    "meta": 0,
+    "namespace": "quartz_stairs",
+    "tile": "quartz_stairs"
+  },
+  "rail": {
+    "id": 66,
+    "meta": 0,
+    "namespace": "rail",
+    "tile": "rail"
+  },
+  "red_flower": {
+    "id": 38,
+    "meta": 0,
+    "namespace": "poppy",
+    "tile": "red_flower"
+  },
+  "red_flower.allium": {
+    "id": 38,
+    "meta": 2,
+    "namespace": "allium",
+    "tile": "red_flower.allium"
+  },
+  "red_flower.blueOrchid": {
+    "id": 38,
+    "meta": 1,
+    "namespace": "blue_orchid",
+    "tile": "red_flower.blueOrchid"
+  },
+  "red_flower.cornflower": {
+    "id": 38,
+    "meta": 9,
+    "namespace": "cornflower",
+    "tile": "red_flower.cornflower"
+  },
+  "red_flower.houstonia": {
+    "id": 38,
+    "meta": 3,
+    "namespace": "azure_bluet",
+    "tile": "red_flower.houstonia"
+  },
+  "red_flower.lilyOfTheValley": {
+    "id": 38,
+    "meta": 10,
+    "namespace": "lily_of_the_valley",
+    "tile": "red_flower.lilyOfTheValley"
+  },
+  "red_flower.oxeyeDaisy": {
+    "id": 38,
+    "meta": 8,
+    "namespace": "oxeye_daisy",
+    "tile": "red_flower.oxeyeDaisy"
+  },
+  "red_flower.poppy": {
+    "id": 38,
+    "meta": 0,
+    "namespace": "poppy",
+    "tile": "red_flower.poppy"
+  },
+  "red_flower.tulipOrange": {
+    "id": 38,
+    "meta": 5,
+    "namespace": "orange_tulip",
+    "tile": "red_flower.tulipOrange"
+  },
+  "red_flower.tulipPink": {
+    "id": 38,
+    "meta": 7,
+    "namespace": "pink_tulip",
+    "tile": "red_flower.tulipPink"
+  },
+  "red_flower.tulipRed": {
+    "id": 38,
+    "meta": 4,
+    "namespace": "red_tulip",
+    "tile": "red_flower.tulipRed"
+  },
+  "red_flower.tulipWhite": {
+    "id": 38,
+    "meta": 6,
+    "namespace": "wite_tulip",
+    "tile": "red_flower.tulipWhite"
+  },
+  "red_mushroom": {
+    "id": 40,
+    "meta": 0,
+    "namespace": "red_mushroom",
+    "tile": "red_mushroom"
+  },
+  "red_mushroom_block": {
+    "id": 100,
+    "meta": 0,
+    "namespace": "red_mushroom_block",
+    "tile": "red_mushroom_block"
+  },
+  "red_nether_brick": {
+    "id": 215,
+    "meta": 0,
+    "namespace": "red_nether_bricks",
+    "tile": "red_nether_brick"
+  },
+  "red_nether_brick_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "red_nether_brick_stairs",
+    "tile": "red_nether_brick_stairs"
+  },
+  "red_sandstone": {
+    "id": 179,
+    "meta": 0,
+    "namespace": "red_sandstone",
+    "tile": "red_sandstone"
+  },
+  "red_sandstone_stairs": {
+    "id": 180,
+    "meta": 0,
+    "namespace": "red_sandstone_stairs",
+    "tile": "red_sandstone_stairs"
+  },
+  "red_sandstone.chiseled": {
+    "id": 179,
+    "meta": 1,
+    "namespace": "red_sandstone:1",
+    "tile": "red_sandstone.chiseled"
+  },
+  "red_sandstone.cut": {
+    "id": 179,
+    "meta": 2,
+    "namespace": "red_sandstone:2",
+    "tile": "red_sandstone.cut"
+  },
+  "red_sandstone.default": {
+    "id": 179,
+    "meta": 0,
+    "namespace": "red_sandstone",
+    "tile": "red_sandstone.default"
+  },
+  "red_sandstone.smooth": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_red_sandstone",
+    "tile": "red_sandstone.smooth"
+  },
+  "redstone": {
+    "id": 55,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "redstone_wire",
+    "tile": "redstone"
+  },
+  "redstone_block": {
+    "id": 152,
+    "meta": 0,
+    "namespace": "redstone_block",
+    "tile": "redstone_block"
+  },
+  "redstone_lamp": {
+    "id": 123,
+    "meta": 0,
+    "namespace": "redstone_lamp | $:redstone_lamp_lit §blit§f=§atrue§r",
+    "tile": "redstone_lamp"
+  },
+  "redstone_ore": {
+    "id": 73,
+    "meta": 0,
+    "namespace": "redstone_ore | $:redstone_ore_lit §blit§f=§atrue§r",
+    "tile": "redstone_ore"
+  },
+  "redstone_torch": {
+    "id": 76,
+    "meta": 0,
+    "namespace": "redstone_torch | redstone_wall_torch $:redstone_torch_off §blit§f=§cfalse§r",
+    "tile": "redstone_torch"
+  },
+  "redstone_wire": {
+    "id": 55,
+    "meta": 0,
+    "namespace": "redstone_wire",
+    "tile": "redstone_wire"
+  },
+  "reeds": {
+    "id": 83,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "sugar_cane",
+    "tile": "reeds"
+  },
+  "repeater": {
+    "id": 93,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "repeater | $:repeater_powered §bpowered§f=§atrue§r",
+    "tile": "repeater"
+  },
+  "repeating_command_block": {
+    "id": 210,
+    "meta": 0,
+    "namespace": "repeating_command_block",
+    "tile": "repeating_command_block"
+  },
+  "respawn_anchor": {
+    "id": null,
+    "meta": null,
+    "namespace": "respawn_anchor | $:respawn_anchor_filled §bcharges§f=§64§r",
+    "tile": "respawn_anchor"
+  },
+  "sand": {
+    "id": 12,
+    "meta": 0,
+    "namespace": "sand",
+    "tile": "sand"
+  },
+  "sand.default": {
+    "id": 12,
+    "meta": 0,
+    "namespace": "sand",
+    "tile": "sand.default"
+  },
+  "sand.red": {
+    "id": 12,
+    "meta": 1,
+    "namespace": "sand:1",
+    "tile": "sand.red"
+  },
+  "sandstone": {
+    "id": 24,
+    "meta": 0,
+    "namespace": "sandstone",
+    "tile": "sandstone"
+  },
+  "sandstone_stairs": {
+    "id": 128,
+    "meta": 0,
+    "namespace": "sandstone_stairs",
+    "tile": "sandstone_stairs"
+  },
+  "sandstone.chiseled": {
+    "id": 24,
+    "meta": 1,
+    "namespace": "sandstone:1",
+    "tile": "sandstone.chiseled"
+  },
+  "sandstone.cut": {
+    "id": 24,
+    "meta": 2,
+    "namespace": "sandstone:2",
+    "tile": "sandstone.cut"
+  },
+  "sandstone.default": {
+    "id": 24,
+    "meta": 0,
+    "namespace": "sandstone",
+    "tile": "sandstone.default"
+  },
+  "sandstone.smooth": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_sandstone",
+    "tile": "sandstone.smooth"
+  },
+  "sapling.acacia": {
+    "id": 6,
+    "meta": 4,
+    "namespace": "acacia_sapling",
+    "tile": "sapling.acacia"
+  },
+  "sapling.big_oak": {
+    "id": 6,
+    "meta": 5,
+    "namespace": "sapling",
+    "tile": "sapling.big_oak"
+  },
+  "sapling.birch": {
+    "id": 6,
+    "meta": 2,
+    "namespace": "birch_sapling",
+    "tile": "sapling.birch"
+  },
+  "sapling.jungle": {
+    "id": 6,
+    "meta": 3,
+    "namespace": "jungle_sapling",
+    "tile": "sapling.jungle"
+  },
+  "sapling.oak": {
+    "id": 6,
+    "meta": 0,
+    "namespace": "oak_sapling",
+    "tile": "sapling.oak"
+  },
+  "sapling.spruce": {
+    "id": 6,
+    "meta": 1,
+    "namespace": "spruce_sapling",
+    "tile": "sapling.spruce"
+  },
+  "scaffolding": {
+    "id": null,
+    "meta": null,
+    "namespace": "scaffolding",
+    "tile": "scaffolding"
+  },
+  "sea_pickle": {
+    "id": null,
+    "meta": null,
+    "namespace": "sea_pickle | $:pickle_group §bwaterlogged§f=§cfalse§f,§bpickles§f=§64§r",
+    "tile": "sea_pickle"
+  },
+  "seagrass.seagrass": {
+    "id": null,
+    "meta": null,
+    "namespace": "seagrass§8[§r§bwaterlogged§f=§cfalse§8]§r§f",
+    "tile": "seagrass.seagrass"
+  },
+  "seaLantern": {
+    "id": 169,
+    "meta": 0,
+    "namespace": "sea_lantern",
+    "tile": "seaLantern"
+  },
+  "shroomlight": {
+    "id": null,
+    "meta": null,
+    "namespace": "shroomlight",
+    "tile": "shroomlight"
+  },
+  "shulkerBox": {
+    "id": null,
+    "meta": null,
+    "namespace": "shulker_box",
+    "tile": "shulkerBox"
+  },
+  "shulkerBoxBlack": {
+    "id": 234,
+    "meta": 0,
+    "namespace": "black_shulker_box",
+    "tile": "shulkerBoxBlack"
+  },
+  "shulkerBoxBlue": {
+    "id": 230,
+    "meta": 0,
+    "namespace": "blue_shulker_box",
+    "tile": "shulkerBoxBlue"
+  },
+  "shulkerBoxBrown": {
+    "id": 231,
+    "meta": 0,
+    "namespace": "brown_shulker_box",
+    "tile": "shulkerBoxBrown"
+  },
+  "shulkerBoxCyan": {
+    "id": 228,
+    "meta": 0,
+    "namespace": "cyan_shulker_box",
+    "tile": "shulkerBoxCyan"
+  },
+  "shulkerBoxGray": {
+    "id": 226,
+    "meta": 0,
+    "namespace": "gray_shulker_box",
+    "tile": "shulkerBoxGray"
+  },
+  "shulkerBoxGreen": {
+    "id": 232,
+    "meta": 0,
+    "namespace": "green_shulker_box",
+    "tile": "shulkerBoxGreen"
+  },
+  "shulkerBoxLightBlue": {
+    "id": 222,
+    "meta": 0,
+    "namespace": "light_blue_shulker_box",
+    "tile": "shulkerBoxLightBlue"
+  },
+  "shulkerBoxLime": {
+    "id": 224,
+    "meta": 0,
+    "namespace": "lime_shulker_box",
+    "tile": "shulkerBoxLime"
+  },
+  "shulkerBoxMagenta": {
+    "id": 221,
+    "meta": 0,
+    "namespace": "magenta_box",
+    "tile": "shulkerBoxMagenta"
+  },
+  "shulkerBoxOrange": {
+    "id": 220,
+    "meta": 0,
+    "namespace": "orange_shulker_box",
+    "tile": "shulkerBoxOrange"
+  },
+  "shulkerBoxPink": {
+    "id": 225,
+    "meta": 0,
+    "namespace": "pink_shulker_box",
+    "tile": "shulkerBoxPink"
+  },
+  "shulkerBoxPurple": {
+    "id": 229,
+    "meta": 0,
+    "namespace": "purple_shulker_box",
+    "tile": "shulkerBoxPurple"
+  },
+  "shulkerBoxRed": {
+    "id": 233,
+    "meta": 0,
+    "namespace": "red_shulker_box",
+    "tile": "shulkerBoxRed"
+  },
+  "shulkerBoxSilver": {
+    "id": 227,
+    "meta": 0,
+    "namespace": "light_gray_shulker_box",
+    "tile": "shulkerBoxSilver"
+  },
+  "shulkerBoxWhite": {
+    "id": 219,
+    "meta": 0,
+    "namespace": "white_shulker_box",
+    "tile": "shulkerBoxWhite"
+  },
+  "shulkerBoxYellow": {
+    "id": 223,
+    "meta": 0,
+    "namespace": "yellow_shulker_box",
+    "tile": "shulkerBoxYellow"
+  },
+  "sign": {
+    "id": 63,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "oak_sign",
+    "tile": "sign"
+  },
+  "skull.char": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "player_head",
+    "tile": "skull.char"
+  },
+  "skull.creeper": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "creeper_head",
+    "tile": "skull.creeper"
+  },
+  "skull.dragon": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "dragon_head",
+    "tile": "skull.dragon"
+  },
+  "skull.skeleton": {
+    "id": 144,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "skeleton_skull",
+    "tile": "skull.skeleton"
+  },
+  "skull.wither": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "wither_skeleton_skull",
+    "tile": "skull.wither"
+  },
+  "skull.zombie": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "zombie_head",
+    "tile": "skull.zombie"
+  },
+  "slime": {
+    "id": 165,
+    "meta": 0,
+    "namespace": "slime_block",
+    "tile": "slime"
+  },
+  "smithing_table": {
+    "id": null,
+    "meta": null,
+    "namespace": "smithing_table",
+    "tile": "smithing_table"
+  },
+  "smoker": {
+    "id": null,
+    "meta": null,
+    "namespace": "smoker | $:smoker_lit §blit§f=§atrue§r",
+    "tile": "smoker"
+  },
+  "smooth_quartz_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_quartz_stairs",
+    "tile": "smooth_quartz_stairs"
+  },
+  "smooth_red_sandstone_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_red_sandstone_stairs",
+    "tile": "smooth_red_sandstone_stairs"
+  },
+  "smooth_sandstone_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_sandstone_stairs",
+    "tile": "smooth_sandstone_stairs"
+  },
+  "smooth_stone": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_stone",
+    "tile": "smooth_stone"
+  },
+  "snow": {
+    "id": 80,
+    "meta": 0,
+    "namespace": "snow_block",
+    "tile": "snow"
+  },
+  "snow_layer": {
+    "id": 78,
+    "meta": 0,
+    "namespace": "snow",
+    "tile": "snow_layer"
+  },
+  "snowball": {
+    "id": 78,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "snow",
+    "tile": "snowball"
+  },
+  "soul_campfire": {
+    "id": null,
+    "meta": null,
+    "namespace": "soul_campfire | $:campfire_off §blit§f=§cfalse§r",
+    "tile": "soul_campfire"
+  },
+  "soul_fire": {
+    "id": null,
+    "meta": null,
+    "namespace": "soul_fire",
+    "tile": "soul_fire"
+  },
+  "soul_lantern": {
+    "id": null,
+    "meta": null,
+    "namespace": "soul_lantern",
+    "tile": "soul_lantern"
+  },
+  "soul_sand": {
+    "id": 88,
+    "meta": 0,
+    "namespace": "soul_sand",
+    "tile": "soul_sand"
+  },
+  "soul_soil": {
+    "id": null,
+    "meta": null,
+    "namespace": "soul_soil",
+    "tile": "soul_soil"
+  },
+  "soul_torch": {
+    "id": null,
+    "meta": null,
+    "namespace": "soul_torch | soul_wall_torch",
+    "tile": "soul_torch"
+  },
+  "speckled_melon": {
+    "id": 103,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "melon",
+    "tile": "speckled_melon"
+  },
+  "sponge.dry": {
+    "id": 19,
+    "meta": 0,
+    "namespace": "sponge",
+    "tile": "sponge.dry"
+  },
+  "sponge.wet": {
+    "id": 19,
+    "meta": 1,
+    "namespace": "sponge:1",
+    "tile": "sponge.wet"
+  },
+  "spruce_button": {
+    "id": null,
+    "meta": null,
+    "namespace": "spruce_button | §bpowered§f=§atrue§r",
+    "tile": "spruce_button"
+  },
+  "spruce_door": {
+    "id": 193,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "spruce_door",
+    "tile": "spruce_door"
+  },
+  "spruce_fence_gate": {
+    "id": 183,
+    "meta": 0,
+    "namespace": "spruce_fence_gate | §bin_wall§f=§atrue§r",
+    "tile": "spruce_fence_gate"
+  },
+  "spruce_pressure_plate": {
+    "id": null,
+    "meta": null,
+    "namespace": "spruce_pressure_plate",
+    "tile": "spruce_pressure_plate"
+  },
+  "spruce_sign": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "spruce_sign",
+    "tile": "spruce_sign"
+  },
+  "spruce_stairs": {
+    "id": 134,
+    "meta": 0,
+    "namespace": "spruce_stairs",
+    "tile": "spruce_stairs"
+  },
+  "spruce_standing_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "spruce_sign",
+    "tile": "spruce_standing_sign"
+  },
+  "spruce_trapdoor": {
+    "id": null,
+    "meta": null,
+    "namespace": "spruce_trapdoor",
+    "tile": "spruce_trapdoor"
+  },
+  "spruceFence": {
+    "id": 188,
+    "meta": 0,
+    "namespace": "spruce_fence",
+    "tile": "spruceFence"
+  },
+  "stained_glass_pane.black": {
+    "id": 160,
+    "meta": 15,
+    "namespace": "black_stained_glass_pane",
+    "tile": "stained_glass_pane.black"
+  },
+  "stained_glass_pane.blue": {
+    "id": 160,
+    "meta": 11,
+    "namespace": "blue_stained_glass_pane",
+    "tile": "stained_glass_pane.blue"
+  },
+  "stained_glass_pane.brown": {
+    "id": 160,
+    "meta": 12,
+    "namespace": "brown_stained_glass_pane",
+    "tile": "stained_glass_pane.brown"
+  },
+  "stained_glass_pane.cyan": {
+    "id": 160,
+    "meta": 9,
+    "namespace": "cyan_stained_glass_pane",
+    "tile": "stained_glass_pane.cyan"
+  },
+  "stained_glass_pane.gray": {
+    "id": 160,
+    "meta": 7,
+    "namespace": "gray_stained_glass_pane",
+    "tile": "stained_glass_pane.gray"
+  },
+  "stained_glass_pane.green": {
+    "id": 160,
+    "meta": 13,
+    "namespace": "green_stained_glass_pane",
+    "tile": "stained_glass_pane.green"
+  },
+  "stained_glass_pane.light_blue": {
+    "id": 160,
+    "meta": 3,
+    "namespace": "light_blue_stained_glass_pane",
+    "tile": "stained_glass_pane.light_blue"
+  },
+  "stained_glass_pane.lime": {
+    "id": 160,
+    "meta": 5,
+    "namespace": "lime_stained_glass_pane",
+    "tile": "stained_glass_pane.lime"
+  },
+  "stained_glass_pane.magenta": {
+    "id": 160,
+    "meta": 2,
+    "namespace": "magenta_stained_glass_pane",
+    "tile": "stained_glass_pane.magenta"
+  },
+  "stained_glass_pane.orange": {
+    "id": 160,
+    "meta": 1,
+    "namespace": "orange_stained_glass_pane",
+    "tile": "stained_glass_pane.orange"
+  },
+  "stained_glass_pane.pink": {
+    "id": 160,
+    "meta": 6,
+    "namespace": "pink_stained_glass_pane",
+    "tile": "stained_glass_pane.pink"
+  },
+  "stained_glass_pane.purple": {
+    "id": 160,
+    "meta": 10,
+    "namespace": "purple_stained_glass_pane",
+    "tile": "stained_glass_pane.purple"
+  },
+  "stained_glass_pane.red": {
+    "id": 160,
+    "meta": 14,
+    "namespace": "red_stained_glass_pane",
+    "tile": "stained_glass_pane.red"
+  },
+  "stained_glass_pane.silver": {
+    "id": 160,
+    "meta": 8,
+    "namespace": "light_gray_stained_glass",
+    "tile": "stained_glass_pane.silver"
+  },
+  "stained_glass_pane.white": {
+    "id": 160,
+    "meta": 0,
+    "namespace": "white_stained_glass_pane",
+    "tile": "stained_glass_pane.white"
+  },
+  "stained_glass_pane.yellow": {
+    "id": 160,
+    "meta": 4,
+    "namespace": "yellow_stained_glass_pane",
+    "tile": "stained_glass_pane.yellow"
+  },
+  "stained_glass.black": {
+    "id": 95,
+    "meta": 15,
+    "namespace": "black_stained_glass",
+    "tile": "stained_glass.black"
+  },
+  "stained_glass.blue": {
+    "id": 95,
+    "meta": 11,
+    "namespace": "blue_stained_glass",
+    "tile": "stained_glass.blue"
+  },
+  "stained_glass.brown": {
+    "id": 95,
+    "meta": 12,
+    "namespace": "brown_stained_glass",
+    "tile": "stained_glass.brown"
+  },
+  "stained_glass.cyan": {
+    "id": 95,
+    "meta": 9,
+    "namespace": "cyan_stained_glass",
+    "tile": "stained_glass.cyan"
+  },
+  "stained_glass.gray": {
+    "id": 95,
+    "meta": 7,
+    "namespace": "gray_stained_glass",
+    "tile": "stained_glass.gray"
+  },
+  "stained_glass.green": {
+    "id": 95,
+    "meta": 13,
+    "namespace": "green_stained_glass",
+    "tile": "stained_glass.green"
+  },
+  "stained_glass.light_blue": {
+    "id": 95,
+    "meta": 3,
+    "namespace": "light_blue_stained_glass",
+    "tile": "stained_glass.light_blue"
+  },
+  "stained_glass.lime": {
+    "id": 95,
+    "meta": 5,
+    "namespace": "lime_stained_glass",
+    "tile": "stained_glass.lime"
+  },
+  "stained_glass.magenta": {
+    "id": 95,
+    "meta": 2,
+    "namespace": "magenta_stained_glass",
+    "tile": "stained_glass.magenta"
+  },
+  "stained_glass.orange": {
+    "id": 95,
+    "meta": 1,
+    "namespace": "orange_stained_glass",
+    "tile": "stained_glass.orange"
+  },
+  "stained_glass.pink": {
+    "id": 95,
+    "meta": 6,
+    "namespace": "pink_stained_glass",
+    "tile": "stained_glass.pink"
+  },
+  "stained_glass.purple": {
+    "id": 95,
+    "meta": 10,
+    "namespace": "purple_stained_glass",
+    "tile": "stained_glass.purple"
+  },
+  "stained_glass.red": {
+    "id": 95,
+    "meta": 14,
+    "namespace": "red_stained_glass",
+    "tile": "stained_glass.red"
+  },
+  "stained_glass.silver": {
+    "id": 95,
+    "meta": 8,
+    "namespace": "light_gray_stained_glass",
+    "tile": "stained_glass.silver"
+  },
+  "stained_glass.white": {
+    "id": 95,
+    "meta": 0,
+    "namespace": "white_stained_glass",
+    "tile": "stained_glass.white"
+  },
+  "stained_glass.yellow": {
+    "id": 95,
+    "meta": 4,
+    "namespace": "yellow_stained_glass",
+    "tile": "stained_glass.yellow"
+  },
+  "stained_hardened_clay": {
+    "id": 159,
+    "meta": 0,
+    "namespace": "white_terracotta",
+    "tile": "stained_hardened_clay"
+  },
+  "stained_hardened_clay.black": {
+    "id": 159,
+    "meta": 15,
+    "namespace": "black_terracotta",
+    "tile": "stained_hardened_clay.black"
+  },
+  "stained_hardened_clay.blue": {
+    "id": 159,
+    "meta": 11,
+    "namespace": "blue_terracotta",
+    "tile": "stained_hardened_clay.blue"
+  },
+  "stained_hardened_clay.brown": {
+    "id": 159,
+    "meta": 12,
+    "namespace": "brown_terracotta",
+    "tile": "stained_hardened_clay.brown"
+  },
+  "stained_hardened_clay.cyan": {
+    "id": 159,
+    "meta": 9,
+    "namespace": "cyan_terracotta",
+    "tile": "stained_hardened_clay.cyan"
+  },
+  "stained_hardened_clay.gray": {
+    "id": 159,
+    "meta": 7,
+    "namespace": "gray_terracotta",
+    "tile": "stained_hardened_clay.gray"
+  },
+  "stained_hardened_clay.green": {
+    "id": 159,
+    "meta": 13,
+    "namespace": "green_terracotta",
+    "tile": "stained_hardened_clay.green"
+  },
+  "stained_hardened_clay.lightBlue": {
+    "id": 159,
+    "meta": 3,
+    "namespace": "light_blue_terracotta",
+    "tile": "stained_hardened_clay.lightBlue"
+  },
+  "stained_hardened_clay.lime": {
+    "id": 159,
+    "meta": 5,
+    "namespace": "lime_terracotta",
+    "tile": "stained_hardened_clay.lime"
+  },
+  "stained_hardened_clay.magenta": {
+    "id": 159,
+    "meta": 2,
+    "namespace": "magenta_terracotta",
+    "tile": "stained_hardened_clay.magenta"
+  },
+  "stained_hardened_clay.orange": {
+    "id": 159,
+    "meta": 1,
+    "namespace": "orange_terracotta",
+    "tile": "stained_hardened_clay.orange"
+  },
+  "stained_hardened_clay.pink": {
+    "id": 159,
+    "meta": 6,
+    "namespace": "pink_terracotta",
+    "tile": "stained_hardened_clay.pink"
+  },
+  "stained_hardened_clay.purple": {
+    "id": 159,
+    "meta": 10,
+    "namespace": "purple_terracotta",
+    "tile": "stained_hardened_clay.purple"
+  },
+  "stained_hardened_clay.red": {
+    "id": 159,
+    "meta": 14,
+    "namespace": "red_terracotta",
+    "tile": "stained_hardened_clay.red"
+  },
+  "stained_hardened_clay.silver": {
+    "id": 159,
+    "meta": 8,
+    "namespace": "light_gray_terracotta",
+    "tile": "stained_hardened_clay.silver"
+  },
+  "stained_hardened_clay.white": {
+    "id": 159,
+    "meta": 0,
+    "namespace": "white_terracotta",
+    "tile": "stained_hardened_clay.white"
+  },
+  "stained_hardened_clay.yellow": {
+    "id": 159,
+    "meta": 4,
+    "namespace": "yellow_terracotta",
+    "tile": "stained_hardened_clay.yellow"
+  },
+  "standing_banner": {
+    "id": 176,
+    "meta": 0,
+    "namespace": "white_banner",
+    "tile": "standing_banner"
+  },
+  "standing_banner.black": {
+    "id": null,
+    "meta": null,
+    "namespace": "black_banner",
+    "tile": "standing_banner.black"
+  },
+  "standing_banner.blue": {
+    "id": null,
+    "meta": null,
+    "namespace": "blue_banner",
+    "tile": "standing_banner.blue"
+  },
+  "standing_banner.brown": {
+    "id": null,
+    "meta": null,
+    "namespace": "brown_banner",
+    "tile": "standing_banner.brown"
+  },
+  "standing_banner.cyan": {
+    "id": null,
+    "meta": null,
+    "namespace": "cyan_banner",
+    "tile": "standing_banner.cyan"
+  },
+  "standing_banner.gray": {
+    "id": null,
+    "meta": null,
+    "namespace": "gray_banner",
+    "tile": "standing_banner.gray"
+  },
+  "standing_banner.green": {
+    "id": null,
+    "meta": null,
+    "namespace": "green_banner",
+    "tile": "standing_banner.green"
+  },
+  "standing_banner.lightBlue": {
+    "id": null,
+    "meta": null,
+    "namespace": "light_blue_banner",
+    "tile": "standing_banner.lightBlue"
+  },
+  "standing_banner.lime": {
+    "id": null,
+    "meta": null,
+    "namespace": "lime_banner",
+    "tile": "standing_banner.lime"
+  },
+  "standing_banner.magenta": {
+    "id": null,
+    "meta": null,
+    "namespace": "magenta_banner",
+    "tile": "standing_banner.magenta"
+  },
+  "standing_banner.orange": {
+    "id": null,
+    "meta": null,
+    "namespace": "orange_banner",
+    "tile": "standing_banner.orange"
+  },
+  "standing_banner.pink": {
+    "id": null,
+    "meta": null,
+    "namespace": "pink_banner",
+    "tile": "standing_banner.pink"
+  },
+  "standing_banner.purple": {
+    "id": null,
+    "meta": null,
+    "namespace": "purple_banner",
+    "tile": "standing_banner.purple"
+  },
+  "standing_banner.red": {
+    "id": null,
+    "meta": null,
+    "namespace": "red_banner",
+    "tile": "standing_banner.red"
+  },
+  "standing_banner.silver": {
+    "id": null,
+    "meta": null,
+    "namespace": "light_gray_banner",
+    "tile": "standing_banner.silver"
+  },
+  "standing_banner.white": {
+    "id": 176,
+    "meta": 0,
+    "namespace": "white_banner",
+    "tile": "standing_banner.white"
+  },
+  "standing_banner.yellow": {
+    "id": null,
+    "meta": null,
+    "namespace": "yellow_banner",
+    "tile": "standing_banner.yellow"
+  },
+  "standing_sign": {
+    "id": 63,
+    "meta": 0,
+    "namespace": "oak_sign",
+    "tile": "standing_sign"
+  },
+  "sticky_piston": {
+    "id": 29,
+    "meta": 0,
+    "namespace": "sticky_piston",
+    "tile": "sticky_piston"
+  },
+  "stone_brick_stairs": {
+    "id": 109,
+    "meta": 0,
+    "namespace": "stone_brick_stairs",
+    "tile": "stone_brick_stairs"
+  },
+  "stone_button": {
+    "id": 77,
+    "meta": 0,
+    "namespace": "stone_button | §bpowered§f=§atrue§r",
+    "tile": "stone_button"
+  },
+  "stone_pressure_plate": {
+    "id": 70,
+    "meta": 0,
+    "namespace": "stone_pressure_plate",
+    "tile": "stone_pressure_plate"
+  },
+  "stone_slab": {
+    "id": 44,
+    "meta": 0,
+    "namespace": "stone_slab",
+    "tile": "stone_slab"
+  },
+  "stone_slab.brick": {
+    "id": 44,
+    "meta": 4,
+    "namespace": "brick_slab",
+    "tile": "stone_slab.brick"
+  },
+  "stone_slab.cobble": {
+    "id": 44,
+    "meta": 2,
+    "namespace": "cobblestone_slab",
+    "tile": "stone_slab.cobble"
+  },
+  "stone_slab.nether_brick": {
+    "id": 44,
+    "meta": 7,
+    "namespace": "nether_brick_slab",
+    "tile": "stone_slab.nether_brick"
+  },
+  "stone_slab.quartz": {
+    "id": 44,
+    "meta": 6,
+    "namespace": "quartz_slab",
+    "tile": "stone_slab.quartz"
+  },
+  "stone_slab.sand": {
+    "id": 44,
+    "meta": 1,
+    "namespace": "sandstone_slab",
+    "tile": "stone_slab.sand"
+  },
+  "stone_slab.smoothStoneBrick": {
+    "id": 44,
+    "meta": 5,
+    "namespace": "stone_brick_slab",
+    "tile": "stone_slab.smoothStoneBrick"
+  },
+  "stone_slab.stone": {
+    "id": 44,
+    "meta": 0,
+    "namespace": "stone_slab",
+    "tile": "stone_slab.stone"
+  },
+  "stone_slab.wood": {
+    "id": 44,
+    "meta": 2,
+    "namespace": "petrified_oak_slab",
+    "tile": "stone_slab.wood"
+  },
+  "stone_slab2.mossy_cobblestone": {
+    "id": null,
+    "meta": null,
+    "namespace": "mossy_cobblestone_slab",
+    "tile": "stone_slab2.mossy_cobblestone"
+  },
+  "stone_slab2.prismarine.bricks": {
+    "id": null,
+    "meta": null,
+    "namespace": "prismarine_brick_slab",
+    "tile": "stone_slab2.prismarine.bricks"
+  },
+  "stone_slab2.prismarine.dark": {
+    "id": null,
+    "meta": null,
+    "namespace": "dark_prismarine_slab",
+    "tile": "stone_slab2.prismarine.dark"
+  },
+  "stone_slab2.prismarine.rough": {
+    "id": null,
+    "meta": null,
+    "namespace": "prismarine_slab",
+    "tile": "stone_slab2.prismarine.rough"
+  },
+  "stone_slab2.purpur": {
+    "id": 205,
+    "meta": 0,
+    "namespace": "purpur_slab",
+    "tile": "stone_slab2.purpur"
+  },
+  "stone_slab2.red_nether_brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "red_nether_brick_slab",
+    "tile": "stone_slab2.red_nether_brick"
+  },
+  "stone_slab2.red_sandstone": {
+    "id": 182,
+    "meta": 0,
+    "namespace": "red_sandstone_slab",
+    "tile": "stone_slab2.red_sandstone"
+  },
+  "stone_slab2.sandstone.smooth": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_sandstone_slab",
+    "tile": "stone_slab2.sandstone.smooth"
+  },
+  "stone_slab3.andesite": {
+    "id": null,
+    "meta": null,
+    "namespace": "andesite_slab",
+    "tile": "stone_slab3.andesite"
+  },
+  "stone_slab3.andesite.smooth": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_andesite_slab",
+    "tile": "stone_slab3.andesite.smooth"
+  },
+  "stone_slab3.diorite": {
+    "id": null,
+    "meta": null,
+    "namespace": "diorite_slab",
+    "tile": "stone_slab3.diorite"
+  },
+  "stone_slab3.diorite.smooth": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_diorite_slab",
+    "tile": "stone_slab3.diorite.smooth"
+  },
+  "stone_slab3.end_brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "end_stone_brick_slab",
+    "tile": "stone_slab3.end_brick"
+  },
+  "stone_slab3.granite": {
+    "id": null,
+    "meta": null,
+    "namespace": "granite_slab",
+    "tile": "stone_slab3.granite"
+  },
+  "stone_slab3.granite.smooth": {
+    "id": null,
+    "meta": null,
+    "namespace": "polished_granite_slab",
+    "tile": "stone_slab3.granite.smooth"
+  },
+  "stone_slab3.red_sandstone.smooth": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_red_sandstone_slab",
+    "tile": "stone_slab3.red_sandstone.smooth"
+  },
+  "stone_slab4.cut_red_sandstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "cut_red_sandstone_slab",
+    "tile": "stone_slab4.cut_red_sandstone"
+  },
+  "stone_slab4.cut_sandstone": {
+    "id": null,
+    "meta": null,
+    "namespace": "cut_sandstone_slab",
+    "tile": "stone_slab4.cut_sandstone"
+  },
+  "stone_slab4.mossy_stone_brick": {
+    "id": null,
+    "meta": null,
+    "namespace": "mossy_stone_brick_slab",
+    "tile": "stone_slab4.mossy_stone_brick"
+  },
+  "stone_slab4.smooth_quartz": {
+    "id": null,
+    "meta": null,
+    "namespace": "smooth_quartz_slab",
+    "tile": "stone_slab4.smooth_quartz"
+  },
+  "stone_slab4.stone": {
+    "id": null,
+    "meta": null,
+    "namespace": "stone_slab",
+    "tile": "stone_slab4.stone"
+  },
+  "stone_stairs": {
+    "id": 67,
+    "meta": 0,
+    "namespace": "cobblestone_stairs",
+    "tile": "stone_stairs"
+  },
+  "stone.andesite": {
+    "id": 1,
+    "meta": 5,
+    "namespace": "stone:5",
+    "tile": "stone.andesite"
+  },
+  "stone.andesiteSmooth": {
+    "id": 1,
+    "meta": 6,
+    "namespace": "stone:6",
+    "tile": "stone.andesiteSmooth"
+  },
+  "stone.diorite": {
+    "id": 1,
+    "meta": 3,
+    "namespace": "stone:3",
+    "tile": "stone.diorite"
+  },
+  "stone.dioriteSmooth": {
+    "id": 1,
+    "meta": 4,
+    "namespace": "stone:4",
+    "tile": "stone.dioriteSmooth"
+  },
+  "stone.granite": {
+    "id": 1,
+    "meta": 1,
+    "namespace": "stone:1",
+    "tile": "stone.granite"
+  },
+  "stone.graniteSmooth": {
+    "id": 1,
+    "meta": 2,
+    "namespace": "stone:2",
+    "tile": "stone.graniteSmooth"
+  },
+  "stone.stone": {
+    "id": 1,
+    "meta": 0,
+    "namespace": "stone",
+    "tile": "stone.stone"
+  },
+  "stonebrick": {
+    "id": 98,
+    "meta": 0,
+    "namespace": "stone_bricks",
+    "tile": "stonebrick"
+  },
+  "stonebrick.chiseled": {
+    "id": 98,
+    "meta": 3,
+    "namespace": "chiseled_stone_bricks",
+    "tile": "stonebrick.chiseled"
+  },
+  "stonebrick.cracked": {
+    "id": 98,
+    "meta": 2,
+    "namespace": "cracked_stone_bricks",
+    "tile": "stonebrick.cracked"
+  },
+  "stonebrick.default": {
+    "id": 98,
+    "meta": 0,
+    "namespace": "stone_bricks",
+    "tile": "stonebrick.default"
+  },
+  "stonebrick.mossy": {
+    "id": 98,
+    "meta": 1,
+    "namespace": "mossy_stone_bricks",
+    "tile": "stonebrick.mossy"
+  },
+  "stonebrick.smooth": {
+    "id": 98,
+    "meta": 4,
+    "namespace": "stone_bricks",
+    "tile": "stonebrick.smooth"
+  },
+  "stonecutter": {
+    "id": null,
+    "meta": null,
+    "namespace": "stonecutter",
+    "tile": "stonecutter"
+  },
+  "stonecutter_block": {
+    "id": null,
+    "meta": null,
+    "namespace": "stonecutter_block",
+    "tile": "stonecutter_block"
+  },
+  "string": {
+    "id": 132,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "tripwire",
+    "tile": "string"
+  },
+  "stripped_acacia_log": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_acacia_log",
+    "tile": "stripped_acacia_log"
+  },
+  "stripped_birch_log": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_birch_log",
+    "tile": "stripped_birch_log"
+  },
+  "stripped_crimson_hyphae": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_crimson_hyphae",
+    "tile": "stripped_crimson_hyphae"
+  },
+  "stripped_crimson_stem": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_crimson_hyphae",
+    "tile": "stripped_crimson_stem"
+  },
+  "stripped_dark_oak_log": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_dark_oak_log",
+    "tile": "stripped_dark_oak_log"
+  },
+  "stripped_jungle_log": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_jungle_log",
+    "tile": "stripped_jungle_log"
+  },
+  "stripped_oak_log": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_oak_log",
+    "tile": "stripped_oak_log"
+  },
+  "stripped_spruce_log": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_spruce_log",
+    "tile": "stripped_spruce_log"
+  },
+  "stripped_warped_hyphae": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_warped_hyphae",
+    "tile": "stripped_warped_hyphae"
+  },
+  "stripped_warped_stem": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_warped_hyphae",
+    "tile": "stripped_warped_stem"
+  },
+  "structure_block": {
+    "id": 254,
+    "meta": 0,
+    "namespace": "structure_block",
+    "tile": "structure_block"
+  },
+  "structure_void": {
+    "id": 217,
+    "meta": 0,
+    "namespace": "structure_void",
+    "tile": "structure_void"
+  },
+  "sweet_berries": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "sweet_berry_bush | $:sweet_berry_bush_grown §bage§f=§63§r",
+    "tile": "sweet_berries"
+  },
+  "sweet_berry_bush": {
+    "id": null,
+    "meta": null,
+    "namespace": "sweet_berry_bush | $:sweet_berry_bush_grown §bage§f=§63§r",
+    "tile": "sweet_berry_bush"
+  },
+  "tallgrass": {
+    "id": 31,
+    "meta": 0,
+    "namespace": "grass",
+    "tile": "tallgrass"
+  },
+  "tallgrass.fern": {
+    "id": 31,
+    "meta": 2,
+    "namespace": "grass:2",
+    "tile": "tallgrass.fern"
+  },
+  "tallgrass.grass": {
+    "id": 31,
+    "meta": 0,
+    "namespace": "grass",
+    "tile": "tallgrass.grass"
+  },
+  "tallgrass.shrub": {
+    "id": 31,
+    "meta": 0,
+    "namespace": "grass",
+    "tile": "tallgrass.shrub"
+  },
+  "target": {
+    "id": null,
+    "meta": null,
+    "namespace": "target",
+    "tile": "target"
+  },
+  "tnt": {
+    "id": 46,
+    "meta": 0,
+    "namespace": "tnt",
+    "tile": "tnt"
+  },
+  "torch": {
+    "id": 50,
+    "meta": 0,
+    "namespace": "torch | wall_torch",
+    "tile": "torch"
+  },
+  "trapdoor": {
+    "id": 96,
+    "meta": 0,
+    "namespace": "oak_trapdoor",
+    "tile": "trapdoor"
+  },
+  "trapped_chest": {
+    "id": 146,
+    "meta": 0,
+    "namespace": "trapped_chest",
+    "tile": "trapped_chest"
+  },
+  "tripWire": {
+    "id": 132,
+    "meta": 0,
+    "namespace": "tripwire",
+    "tile": "tripWire"
+  },
+  "tripwire_hook": {
+    "id": 131,
+    "meta": 0,
+    "namespace": "tripwire_hook",
+    "tile": "tripwire_hook"
+  },
+  "turtle_egg": {
+    "id": null,
+    "meta": null,
+    "namespace": "turtle_egg | $:turtle_egg_group §beggs§f=§64§f,§bhatch§f=§62§r",
+    "tile": "turtle_egg"
+  },
+  "twisting_vines": {
+    "id": null,
+    "meta": null,
+    "namespace": "twisting_vines",
+    "tile": "twisting_vines"
+  },
+  "unknown": {
+    "id": null,
+    "meta": null,
+    "namespace": null,
+    "tile": "unknown"
+  },
+  "unlit_redstone_torch": {
+    "id": 75,
+    "meta": 0,
+    "namespace": "redstone_torch | $:redstone_torch_off §blit§f=§cfalse§r",
+    "tile": "unlit_redstone_torch"
+  },
+  "vine": {
+    "id": 106,
+    "meta": 0,
+    "namespace": "vine",
+    "tile": "vine"
+  },
+  "warped_button": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_button | §bpowered§f=§atrue§r",
+    "tile": "warped_button"
+  },
+  "warped_door": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "warped_door",
+    "tile": "warped_door"
+  },
+  "warped_double_slab": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_slab",
+    "tile": "warped_double_slab"
+  },
+  "warped_fence": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_fence",
+    "tile": "warped_fence"
+  },
+  "warped_fence_gate": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_fence_gate | §bin_wall§f=§atrue§r",
+    "tile": "warped_fence_gate"
+  },
+  "warped_fungus": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_fungus",
+    "tile": "warped_fungus"
+  },
+  "warped_hyphae": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_hyphae",
+    "tile": "warped_hyphae"
+  },
+  "warped_nylium": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_nylium",
+    "tile": "warped_nylium"
+  },
+  "warped_planks": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_planks",
+    "tile": "warped_planks"
+  },
+  "warped_pressure_plate": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_pressure_plate",
+    "tile": "warped_pressure_plate"
+  },
+  "warped_roots.warpedRoots": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_roots",
+    "tile": "warped_roots.warpedRoots"
+  },
+  "warped_sign": {
+    "id": null,
+    "isItem": true,
+    "meta": null,
+    "namespace": "warped_sign",
+    "tile": "warped_sign"
+  },
+  "warped_slab": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_slab",
+    "tile": "warped_slab"
+  },
+  "warped_stairs": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_stairs",
+    "tile": "warped_stairs"
+  },
+  "warped_standing_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_sign",
+    "tile": "warped_standing_sign"
+  },
+  "warped_stem": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_stem",
+    "tile": "warped_stem"
+  },
+  "warped_trapdoor": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_trapdoor",
+    "tile": "warped_trapdoor"
+  },
+  "warped_wall_sign": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_sign",
+    "tile": "warped_wall_sign"
+  },
+  "warped_wart_block": {
+    "id": null,
+    "meta": null,
+    "namespace": "warped_wart_block",
+    "tile": "warped_wart_block"
+  },
+  "water": {
+    "id": 9,
+    "meta": 0,
+    "namespace": "water",
+    "tile": "water"
+  },
+  "waterlily": {
+    "id": 111,
+    "meta": 0,
+    "namespace": "lily_pad",
+    "tile": "waterlily"
+  },
+  "web": {
+    "id": 30,
+    "meta": 0,
+    "namespace": "cobweb",
+    "tile": "web"
+  },
+  "weeping_vines": {
+    "id": null,
+    "meta": null,
+    "namespace": "weeping_vines | weeping_vines_plant",
+    "tile": "weeping_vines"
+  },
+  "wheat": {
+    "id": 170,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "hay_block",
+    "tile": "wheat"
+  },
+  "wheat_seeds": {
+    "id": 59,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "wheat",
+    "tile": "wheat_seeds"
+  },
+  "wither_rose": {
+    "id": null,
+    "meta": null,
+    "namespace": "wither_rose",
+    "tile": "wither_rose"
+  },
+  "wood.acacia": {
+    "id": null,
+    "meta": null,
+    "namespace": "acacia_wood",
+    "tile": "wood.acacia"
+  },
+  "wood.birch": {
+    "id": null,
+    "meta": null,
+    "namespace": "birch_wood",
+    "tile": "wood.birch"
+  },
+  "wood.dark_oak": {
+    "id": null,
+    "meta": null,
+    "namespace": "dark_oak_wood",
+    "tile": "wood.dark_oak"
+  },
+  "wood.jungle": {
+    "id": null,
+    "meta": null,
+    "namespace": "jungle_wood",
+    "tile": "wood.jungle"
+  },
+  "wood.oak": {
+    "id": null,
+    "meta": null,
+    "namespace": "oak_wood",
+    "tile": "wood.oak"
+  },
+  "wood.spruce": {
+    "id": null,
+    "meta": null,
+    "namespace": "spruce_wood",
+    "tile": "wood.spruce"
+  },
+  "wood.stripped.acacia": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_acacia_wood",
+    "tile": "wood.stripped.acacia"
+  },
+  "wood.stripped.birch": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_birch_wood",
+    "tile": "wood.stripped.birch"
+  },
+  "wood.stripped.dark_oak": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_dark_oak_wood",
+    "tile": "wood.stripped.dark_oak"
+  },
+  "wood.stripped.jungle": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_jungle_wood",
+    "tile": "wood.stripped.jungle"
+  },
+  "wood.stripped.oak": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_oak_wood",
+    "tile": "wood.stripped.oak"
+  },
+  "wood.stripped.spruce": {
+    "id": null,
+    "meta": null,
+    "namespace": "stripped_spruce_wood",
+    "tile": "wood.stripped.spruce"
+  },
+  "wooden_button": {
+    "id": 143,
+    "meta": 0,
+    "namespace": "oak_button | §bpowered§f=§atrue§r",
+    "tile": "wooden_button"
+  },
+  "wooden_door": {
+    "id": 64,
+    "isItem": true,
+    "meta": 0,
+    "namespace": "oak_door",
+    "tile": "wooden_door"
+  },
+  "wooden_pressure_plate": {
+    "id": 72,
+    "meta": 0,
+    "namespace": "oak_pressure_plate",
+    "tile": "wooden_pressure_plate"
+  },
+  "wooden_slab": {
+    "id": null,
+    "meta": null,
+    "namespace": "oak_slab",
+    "tile": "wooden_slab"
+  },
+  "wooden_slab.acacia": {
+    "id": null,
+    "meta": null,
+    "namespace": "acacia_slab",
+    "tile": "wooden_slab.acacia"
+  },
+  "wooden_slab.big_oak": {
+    "id": null,
+    "meta": null,
+    "namespace": "dark_oak_slab",
+    "tile": "wooden_slab.big_oak"
+  },
+  "wooden_slab.birch": {
+    "id": null,
+    "meta": null,
+    "namespace": "birch_slab",
+    "tile": "wooden_slab.birch"
+  },
+  "wooden_slab.jungle": {
+    "id": null,
+    "meta": null,
+    "namespace": "jungle_slab",
+    "tile": "wooden_slab.jungle"
+  },
+  "wooden_slab.oak": {
+    "id": null,
+    "meta": null,
+    "namespace": "oak_slab",
+    "tile": "wooden_slab.oak"
+  },
+  "wooden_slab.spruce": {
+    "id": null,
+    "meta": null,
+    "namespace": "spruce_slab",
+    "tile": "wooden_slab.spruce"
+  },
+  "wool": {
+    "id": 35,
+    "meta": 0,
+    "namespace": "white_wool",
+    "tile": "wool"
+  },
+  "wool.black": {
+    "id": 35,
+    "meta": 15,
+    "namespace": "black_wool",
+    "tile": "wool.black"
+  },
+  "wool.blue": {
+    "id": 35,
+    "meta": 11,
+    "namespace": "blue_wool",
+    "tile": "wool.blue"
+  },
+  "wool.brown": {
+    "id": 35,
+    "meta": 12,
+    "namespace": "brown_wool",
+    "tile": "wool.brown"
+  },
+  "wool.cyan": {
+    "id": 35,
+    "meta": 9,
+    "namespace": "cyan_wool",
+    "tile": "wool.cyan"
+  },
+  "wool.gray": {
+    "id": 35,
+    "meta": 7,
+    "namespace": "gray_wool",
+    "tile": "wool.gray"
+  },
+  "wool.green": {
+    "id": 35,
+    "meta": 13,
+    "namespace": "green_wool",
+    "tile": "wool.green"
+  },
+  "wool.lightBlue": {
+    "id": 35,
+    "meta": 3,
+    "namespace": "light_blue_wool",
+    "tile": "wool.lightBlue"
+  },
+  "wool.lime": {
+    "id": 35,
+    "meta": 5,
+    "namespace": "lime_wool",
+    "tile": "wool.lime"
+  },
+  "wool.magenta": {
+    "id": 35,
+    "meta": 2,
+    "namespace": "magenta_wool",
+    "tile": "wool.magenta"
+  },
+  "wool.orange": {
+    "id": 35,
+    "meta": 1,
+    "namespace": "orange_wool",
+    "tile": "wool.orange"
+  },
+  "wool.pink": {
+    "id": 35,
+    "meta": 6,
+    "namespace": "pink_wool",
+    "tile": "wool.pink"
+  },
+  "wool.purple": {
+    "id": 35,
+    "meta": 10,
+    "namespace": "purple_wool",
+    "tile": "wool.purple"
+  },
+  "wool.red": {
+    "id": 35,
+    "meta": 14,
+    "namespace": "red_wool",
+    "tile": "wool.red"
+  },
+  "wool.silver": {
+    "id": 35,
+    "meta": 8,
+    "namespace": "light_gray_wool",
+    "tile": "wool.silver"
+  },
+  "wool.white": {
+    "id": 35,
+    "meta": 0,
+    "namespace": "white_wool",
+    "tile": "wool.white"
+  },
+  "wool.yellow": {
+    "id": 35,
+    "meta": 4,
+    "namespace": "yellow_wool",
+    "tile": "wool.yellow"
+  },
+  "yellow_flower": {
+    "id": 37,
+    "meta": 0,
+    "namespace": "dandelion",
+    "tile": "yellow_flower"
+  },
+  "yellow_flower.dandelion": {
+    "id": 37,
+    "meta": 0,
+    "namespace": "dandelion",
+    "tile": "yellow_flower.dandelion"
+  }
+}
