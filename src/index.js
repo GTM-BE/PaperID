@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2020  Greyliances and TobidieTopfpflanze
+ * Copyright (C) 2020  greyliances and TobidieTopfpflanze
  * See https://github.com/GTM-BE/PaperID#LICENSE for more information
  */
 

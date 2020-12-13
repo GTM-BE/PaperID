@@ -3,18 +3,18 @@
   "header": {
     "name": "",
     "uuid": "00000000-0000-0000-0000-000000000000",
-    "description": "Displays Block IDs.\nMake sure to select a modified language.\nMade by §agreyliances§f",
+    "description": "Displays Block IDs.\nMake sure to select a modified language.",
     "min_engine_version": [1, 16, 100]
   },
   "modules": [
     {
       "uuid": "00000000-0000-0000-0000-000000000000",
-      "description": "Displays Block IDs.\nMake sure to select a modified language.\nMade by §agreyliances§f",
+      "description": "Displays Block IDs.\nMake sure to select a modified language.",
       "type": "resources"
     }
   ],
   "metadata": {
-    "authors": ["Greyliances", "TobidieTopfpflanze"],
+    "authors": ["greyliances", "TobidieTopfpflanze"],
     "license": "GPLv3",
     "url": "https://github.com/GTM-BE/PaperID"
   }
