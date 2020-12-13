@@ -191,12 +191,13 @@ const generateLangFile = (inputPath) => {
       key: tileKey,
       name: tileName,
       type: entry.startsWith("tile.") ? "tile" : "item",
+      entry,
     });
   });
 
   const tileSet = [];
 
-  tileSetKeys.forEach(({ key, name, type }) => {
+  tileSetKeys.forEach(({ key, name, type, entry }) => {
     if (type === "item") {
       if (tiles[key]) {
         /**
@@ -205,6 +206,8 @@ const generateLangFile = (inputPath) => {
          * in the inventory such as doors, crops, beds etc
          */
         tileSet.push({ ...tiles[key], name });
+      } else {
+        otherEntries.push(entry);
       }
     } else {
       if (tiles[key]) {
