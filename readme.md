@@ -51,6 +51,12 @@ If en_US is all you need, then you can just download the pack
 
 ## Credits
 
+##### Crediting us
+
+- The GPL 3.0 License applies in every aspect.
+- If you share the pack or a generated Version of it, you have to give the credit according to the License
+  which clearly informs the users about it. E.g. a link to this Repository.
+
 ##### Faithful Default8 Font
 
 The font came from the [Faithful Team](https://faithful.team/).
