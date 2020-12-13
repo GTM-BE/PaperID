@@ -1,11 +1,16 @@
-const FileSystem = require("fs");
-const FileSystemExtra = require("fs-extra");
-const Path = require("path");
-const glyphs = require("./glyph_translation");
+/**
+ * Copyright (C) 2020  Greyliances and TobidieTopfpflanze
+ * See https://github.com/GTM-BE/PaperID#LICENSE for more information
+ */
 
-const manifest = require("./resources/manifest");
-const version = require("./resources/version");
-const tiles = require("./resources/tiles");
+const FileSystem = require('fs');
+const FileSystemExtra = require('fs-extra');
+const Path = require('path');
+const glyphs = require('./glyph_translation');
+
+const manifest = require('./resources/manifest');
+const version = require('./resources/version');
+const tiles = require('./resources/tiles');
 
 /**
  * This is just to keep track of the version as users should
@@ -13,7 +18,7 @@ const tiles = require("./resources/tiles");
  */
 version[2] = ++version[2];
 
-const outDirName = `PaperID v${version.join(".")}`;
+const outDirName = `PaperID v${version.join('.')}`;
 
 /**
  * The .lang files we found in the input folder
@@ -25,16 +30,16 @@ const foundLanguages = [];
  * Write back the bumped version
  */
 FileSystem.writeFileSync(
-  Path.join(__dirname, "./resources/version.json"),
+  Path.join(__dirname, './resources/version.json'),
   JSON.stringify(version, null, 2),
-  { encoding: "utf8" }
+  { encoding: 'utf8' }
 );
 
 /**
  * Credit for this function goes to
  * https://gist.github.com/jed/982883
  */
-const genUUID = (a = "") =>
+const genUUID = (a = '') =>
   a
     ? ((Number(a) ^ (Math.random() * 16)) >> (Number(a) / 4)).toString(16)
     : `${1e7}-${1e3}-${4e3}-${8e3}-${1e11}`.replace(/[018]/g, genUUID);
@@ -62,7 +67,7 @@ const getFilePaths = (folderPath) => {
  * a clean folder
  */
 FileSystem.rmdirSync(Path.join(__dirname, `../${outDirName}`), {
-  recursive: true,
+  recursive: true
 });
 FileSystem.mkdirSync(Path.join(__dirname, `../${outDirName}`));
 
@@ -77,7 +82,7 @@ FileSystem.mkdirSync(Path.join(__dirname, `../${outDirName}/texts`));
  * the glyphs and font i want to use
  */
 FileSystemExtra.copySync(
-  Path.join(__dirname, "./resources/font"),
+  Path.join(__dirname, './resources/font'),
   Path.join(__dirname, `../${outDirName}/font`)
 );
 
@@ -90,14 +95,14 @@ FileSystemExtra.copySync(
  */
 manifest.header.uuid = genUUID();
 manifest.header.version = version;
-manifest.header.name = `PaperID v${version.join(".")}`;
+manifest.header.name = `PaperID v${version.join('.')}`;
 
 /**
  * Same for the module
  */
 manifest.modules[0].uuid = genUUID();
 manifest.modules[0].version = version;
-manifest.modules[0].name = `PaperID v${version.join(".")}`;
+manifest.modules[0].name = `PaperID v${version.join('.')}`;
 
 /**
  * We bumped the manifest file, lets write it to the output folder
@@ -105,7 +110,7 @@ manifest.modules[0].name = `PaperID v${version.join(".")}`;
 FileSystem.writeFileSync(
   Path.join(__dirname, `../${outDirName}/manifest.json`),
   JSON.stringify(manifest, null, 2),
-  { encoding: "utf8" }
+  { encoding: 'utf8' }
 );
 
 /**
@@ -134,17 +139,17 @@ const generateLangFile = (inputPath) => {
    */
   const tileSetKeys = [];
 
-  const langFile = FileSystem.readFileSync(inputPath, { encoding: "utf8" });
+  const langFile = FileSystem.readFileSync(inputPath, { encoding: 'utf8' });
 
   /**
    * Keep track of the files we found, as we need them all to generate the
    * language_names.json and languages.json Files with that info
    */
   foundLanguages.push(
-    `${inputPath.split(/\\|\//g).pop().split(".").shift()}.s`
+    `${inputPath.split(/\\|\//g).pop().split('.').shift()}.s`
   );
 
-  foundLanguages.push(inputPath.split(/\\|\//g).pop().split(".").shift());
+  foundLanguages.push(inputPath.split(/\\|\//g).pop().split('.').shift());
 
   /**
    * We sort the .lang file into a set of tile entries and one
@@ -153,7 +158,7 @@ const generateLangFile = (inputPath) => {
   langFile
     .split(/\n|\r\n/g)
     .forEach((langFileLine) =>
-      langFileLine.startsWith("tile.") || langFileLine.startsWith("item.")
+      langFileLine.startsWith('tile.') || langFileLine.startsWith('item.')
         ? tileEntries.push(langFileLine)
         : otherEntries.push(langFileLine)
     );
@@ -162,11 +167,11 @@ const generateLangFile = (inputPath) => {
     /**
      * This is the name an Item has
      */
-    const tileName = entry.split("=").pop();
+    const tileName = entry.split('=').pop();
 
     const tileKey = entry
-      .replace(/(?:^tile\.)|(?:^item\.)/, "")
-      .replace(/\.name.{1,}$/, "");
+      .replace(/(?:^tile\.)|(?:^item\.)/, '')
+      .replace(/\.name.{1,}$/, '');
 
     if (/\..{1,}=.{1,}$/.test(tileKey)) {
       /**
@@ -190,15 +195,15 @@ const generateLangFile = (inputPath) => {
     tileSetKeys.push({
       key: tileKey,
       name: tileName,
-      type: entry.startsWith("tile.") ? "tile" : "item",
-      entry,
+      type: entry.startsWith('tile.') ? 'tile' : 'item',
+      entry
     });
   });
 
   const tileSet = [];
 
   tileSetKeys.forEach(({ key, name, type, entry }) => {
-    if (type === "item") {
+    if (type === 'item') {
       if (tiles[key]) {
         /**
          * This is an item that we ALSO want to give ID data
@@ -213,7 +218,7 @@ const generateLangFile = (inputPath) => {
       if (tiles[key]) {
         tileSet.push({
           ...tiles[key],
-          name,
+          name
         });
       } else {
         console.log(`Language file entry ${key} is unknown!`);
@@ -228,16 +233,16 @@ const generateLangFile = (inputPath) => {
    */
   tileSet.forEach(
     ({ tile, name, id, meta, namespace, isItem, isBedrockOnly }) => {
-      const [preName, afterName] = (namespace || "").split("|");
+      const [preName, afterName] = (namespace || '').split('|');
       convertedTileEntriesBlockStates.push(
-        `${isItem ? "item" : "tile"}.${tile}.name=${name
-          .replace(/#$/, "")
+        `${isItem ? 'item' : 'tile'}.${tile}.name=${name
+          .replace(/#$/, '')
           .trim()}${
           isBedrockOnly
             ? `${glyphs.error} Bedrock Exclusive `
             : `${
                 !id || id > 255
-                  ? ""
+                  ? ''
                   : `${glyphs.id} ${id}:${meta ?? glyphs.error} `
               }${
                 namespace
@@ -247,10 +252,10 @@ const generateLangFile = (inputPath) => {
                             .replace(
                               /\$:[a-z0-9_]{1,}/g,
                               (match) =>
-                                `${glyphs[match.replace("$:", "").trim()]} `
+                                `${glyphs[match.replace('$:', '').trim()]} `
                             )
                             .trim()}`
-                        : ""
+                        : ''
                     }`
                   : `${glyphs.error} Unknown `
               }`
@@ -258,18 +263,18 @@ const generateLangFile = (inputPath) => {
       );
 
       convertedTileEntries.push(
-        `${isItem ? "item" : "tile"}.${tile}.name=${name
-          .replace(/#$/, "")
+        `${isItem ? 'item' : 'tile'}.${tile}.name=${name
+          .replace(/#$/, '')
           .trim()}${
           isBedrockOnly
             ? `${glyphs.error} Bedrock Exclusive `
             : `${
                 !id || id > 255
-                  ? ""
+                  ? ''
                   : `${glyphs.id} ${id}:${meta ?? glyphs.error} `
               }${
                 namespace
-                  ? `${glyphs.namespace} ${preName.split("§8[")[0].trim()}`
+                  ? `${glyphs.namespace} ${preName.split('§8[')[0].trim()}`
                   : `${glyphs.error} Unknown`
               }`
         }`
@@ -283,11 +288,11 @@ const generateLangFile = (inputPath) => {
       `../${outDirName}/texts/${inputPath
         .split(/\\|\//g)
         .pop()
-        .split(".")
+        .split('.')
         .shift()}.p.lang`
     ),
-    `${convertedTileEntries.join("\n")}\n${otherEntries.join("\n")}`,
-    { encoding: "utf8" }
+    `${convertedTileEntries.join('\n')}\n${otherEntries.join('\n')}`,
+    { encoding: 'utf8' }
   );
 
   FileSystem.writeFileSync(
@@ -296,27 +301,27 @@ const generateLangFile = (inputPath) => {
       `../${outDirName}/texts/${inputPath
         .split(/\\|\//g)
         .pop()
-        .split(".")
+        .split('.')
         .shift()}.s.lang`
     ),
-    `${convertedTileEntriesBlockStates.join("\n")}\n${otherEntries.join("\n")}`,
-    { encoding: "utf8" }
+    `${convertedTileEntriesBlockStates.join('\n')}\n${otherEntries.join('\n')}`,
+    { encoding: 'utf8' }
   );
 
   console.log(
     `Compiled a new language ${inputPath
       .split(/\\|\//g)
       .pop()
-      .split(".")
+      .split('.')
       .shift()}.p.lang, ${inputPath
       .split(/\\|\//g)
       .pop()
-      .split(".")
+      .split('.')
       .shift()}.s.lang`
   );
 };
 
-getFilePaths(Path.join(__dirname, "../input")).forEach((path) =>
+getFilePaths(Path.join(__dirname, '../input')).forEach((path) =>
   generateLangFile(path)
 );
 
@@ -324,40 +329,40 @@ const compiledLangSet = [];
 const namespacedLanguages = [];
 
 foundLanguages.forEach((language) => {
-  if (language.endsWith(".s")) {
+  if (language.endsWith('.s')) {
     compiledLangSet.push([
       language,
-      `§a[${language.replace(/\.(?:s|p)$/, "")}]§f v${version.join(
-        "."
-      )} Modified to show Java IDs & Namespaces as well as some block states`,
+      `§a[${language.replace(/\.(?:s|p)$/, '')}]§f v${version.join(
+        '.'
+      )} Modified to show Java IDs & Namespaces as well as some block states`
     ]);
     namespacedLanguages.push(language);
   } else {
     compiledLangSet.push([
       `${language}.p`,
-      `§a[${language.replace(/\.(?:s|p)$/, "")}]§f v${version.join(
-        "."
-      )} Modified to show Java IDs & Namespaces`,
+      `§a[${language.replace(/\.(?:s|p)$/, '')}]§f v${version.join(
+        '.'
+      )} Modified to show Java IDs & Namespaces`
     ]);
     namespacedLanguages.push(`${language}.p`);
   }
 });
 
 FileSystem.copyFileSync(
-  Path.join(__dirname, "./resources/pack_icon.png"),
+  Path.join(__dirname, './resources/pack_icon.png'),
   Path.join(__dirname, `../${outDirName}/pack_icon.png`)
 );
 
 FileSystem.writeFileSync(
   Path.join(__dirname, `../${outDirName}/texts/language_names.json`),
   JSON.stringify(compiledLangSet, null, 2),
-  { encoding: "utf8" }
+  { encoding: 'utf8' }
 );
 
 FileSystem.writeFileSync(
   Path.join(__dirname, `../${outDirName}/texts/languages.json`),
   JSON.stringify(namespacedLanguages, null, 2),
-  { encoding: "utf8" }
+  { encoding: 'utf8' }
 );
 
 console.log(`Finished compiling the provided languages`);

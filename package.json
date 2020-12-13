@@ -1,5 +1,5 @@
 {
-  "name": "builders",
+  "name": "paperid",
   "version": "1.0.0",
   "description": "Utility Resourcepack for Bedrock Builders",
   "main": "./src/index.js",
@@ -8,15 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/greyliances/Builders.git"
+    "url": "git+https://github.com/GTM-BE/PaperID.git"
   },
-  "author": "greyliances#0001",
-  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Greyliances",
+      "url": "https://github.com/greyliances"
+    },
+    {
+      "name": "TobidieTopfpflanze",
+      "url": "https://github.com/TobidieTopfpflanze"
+    }
+  ],
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/greyliances/Builders/issues"
+    "url": "https://github.com/GTM-BE/PaperID/issues"
   },
-  "homepage": "https://github.com/greyliances/Builders#readme",
+  "homepage": "https://github.com/GTM-BE/PaperID#readme",
   "dependencies": {
-    "fs-extra": "^9.0.1"
+    "fs-extra": "^9.0.1",
+    "prettier": "^2.2.1"
   }
 }
