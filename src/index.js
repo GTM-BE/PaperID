@@ -3,8 +3,7 @@
  * See https://github.com/GTM-BE/PaperID#LICENSE for more information
  */
 
-const FileSystem = require('fs');
-const FileSystemExtra = require('fs-extra');
+const FileSystem = require('fs-extra');
 const Path = require('path');
 const glyphs = require('./glyph_translation');
 
@@ -69,6 +68,7 @@ const getFilePaths = (folderPath) => {
 FileSystem.rmdirSync(Path.join(__dirname, `../${outDirName}`), {
   recursive: true
 });
+
 FileSystem.mkdirSync(Path.join(__dirname, `../${outDirName}`));
 
 /**
@@ -81,7 +81,7 @@ FileSystem.mkdirSync(Path.join(__dirname, `../${outDirName}/texts`));
  * FSExtra is used to copy the font folder which contains multiple files like
  * the glyphs and font i want to use
  */
-FileSystemExtra.copySync(
+FileSystem.copySync(
   Path.join(__dirname, './resources/font'),
   Path.join(__dirname, `../${outDirName}/font`)
 );
@@ -210,7 +210,11 @@ const generateLangFile = (inputPath) => {
          * This is the case for any Block that is represented by an item
          * in the inventory such as doors, crops, beds etc
          */
-        tileSet.push({ ...tiles[key], name });
+        tileSet.push({
+          ...tiles[key],
+          tile: key,
+          name
+        });
       } else {
         otherEntries.push(entry);
       }
@@ -218,6 +222,7 @@ const generateLangFile = (inputPath) => {
       if (tiles[key]) {
         tileSet.push({
           ...tiles[key],
+          tile: key,
           name
         });
       } else {
