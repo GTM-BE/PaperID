@@ -27,6 +27,6 @@
   "homepage": "https://github.com/GTM-BE/PaperID#readme",
   "dependencies": {
     "fs-extra": "^10.0.0",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.1"
   }
 }
