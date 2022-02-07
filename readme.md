@@ -56,8 +56,3 @@ If en_US is all you need, then you can just download the pack
 - The GPL 3.0 License applies in every aspect.
 - If you share the pack or a generated Version of it, you have to give the credit according to the License
   which clearly informs the users about it. E.g. a link to this Repository.
-
-##### Faithful Default8 Font
-
-The font came from the [Faithful Team](https://faithful.team/).
-I was granted the ability to use it in this non-commercial pack by [xMrVizzy](https://canary.discord.com/channels/316475124616527882/725746397248225500/787696739598860308)
