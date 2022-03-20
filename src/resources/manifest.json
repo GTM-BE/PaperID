@@ -4,7 +4,7 @@
     "name": "",
     "uuid": "00000000-0000-0000-0000-000000000000",
     "description": "Displays Block IDs.\nMake sure to select a modified language.",
-    "min_engine_version": [1, 16, 100]
+    "min_engine_version": [1, 18, 0]
   },
   "modules": [
     {

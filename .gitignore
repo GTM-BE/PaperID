@@ -1,5 +1,8 @@
+.vscode
 node_modules
+
 output
 input
+
 debug
 PaperID*

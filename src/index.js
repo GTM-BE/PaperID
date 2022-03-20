@@ -5,34 +5,21 @@
 
 const FileSystem = require('fs-extra');
 const Path = require('path');
+const archiver = require('archiver');
+
 const glyphs = require('./glyph_translation');
-
 const manifest = require('./resources/manifest');
-const version = require('./resources/version');
 const tiles = require('./resources/tiles');
+const version = require(Path.join(__dirname, "..", '/package.json')).version.split(".").map(el => Number(el));
 
-/**
- * This is just to keep track of the version as users should
- * know what they actually use
- */
-version[2] = ++version[2];
-
-const outDirName = `PaperID v${version.join('.')}`;
+const outDir = Path.join(__dirname, "..", "output")
+const packDirName = `PaperID v${version.join('.')}`;
 
 /**
  * The .lang files we found in the input folder
  * en_US.lang turns into en_US
  */
 const foundLanguages = [];
-
-/**
- * Write back the bumped version
- */
-FileSystem.writeFileSync(
-  Path.join(__dirname, './resources/version.json'),
-  JSON.stringify(version, null, 2),
-  { encoding: 'utf8' }
-);
 
 /**
  * Credit for this function goes to
@@ -65,16 +52,16 @@ const getFilePaths = (folderPath) => {
  * and ensure its existence afterwards, we always want to start on
  * a clean folder
  */
-FileSystem.rmdirSync(Path.join(__dirname, `../${outDirName}`), {
-  recursive: true
-});
-
-FileSystem.mkdirSync(Path.join(__dirname, `../${outDirName}`));
+if (FileSystem.existsSync(Path.join(outDir))) {
+  FileSystem.rmSync(Path.join(outDir), {
+    recursive: true
+  });
+}
 
 /**
  * Prepare the texts folder where the new lang files go
  */
-FileSystem.mkdirSync(Path.join(__dirname, `../${outDirName}/texts`));
+FileSystem.mkdirSync(Path.join(outDir, packDirName, "texts"), {recursive: true});
 
 /**
  * Default FS doesn't let me copy whole folders recursively so
@@ -82,8 +69,8 @@ FileSystem.mkdirSync(Path.join(__dirname, `../${outDirName}/texts`));
  * the glyphs and font i want to use
  */
 FileSystem.copySync(
-  Path.join(__dirname, './resources/font'),
-  Path.join(__dirname, `../${outDirName}/font`)
+  Path.join(__dirname, "resources", "font"),
+  Path.join(outDir, packDirName, "font")
 );
 
 /**
@@ -102,13 +89,12 @@ manifest.header.name = `PaperID v${version.join('.')}`;
  */
 manifest.modules[0].uuid = genUUID();
 manifest.modules[0].version = version;
-manifest.modules[0].name = `PaperID v${version.join('.')}`;
 
 /**
  * We bumped the manifest file, lets write it to the output folder
  */
 FileSystem.writeFileSync(
-  Path.join(__dirname, `../${outDirName}/manifest.json`),
+  Path.join(outDir, packDirName, "manifest.json"),
   JSON.stringify(manifest, null, 2),
   { encoding: 'utf8' }
 );
@@ -289,28 +275,26 @@ const generateLangFile = (inputPath) => {
 
   FileSystem.writeFileSync(
     Path.join(
-      __dirname,
-      `../${outDirName}/texts/${inputPath
+      outDir,
+      `${packDirName}/texts/${inputPath
         .split(/\\|\//g)
         .pop()
         .split('.')
         .shift()}.p.lang`
     ),
-    `${convertedTileEntries.join('\n')}\n${otherEntries.join('\n')}`,
-    { encoding: 'utf8' }
+    [...convertedTileEntries, ...otherEntries].map(el => el.trim()).join('\n')
   );
 
   FileSystem.writeFileSync(
     Path.join(
-      __dirname,
-      `../${outDirName}/texts/${inputPath
+      outDir,
+      `${packDirName}/texts/${inputPath
         .split(/\\|\//g)
         .pop()
         .split('.')
         .shift()}.s.lang`
     ),
-    `${convertedTileEntriesBlockStates.join('\n')}\n${otherEntries.join('\n')}`,
-    { encoding: 'utf8' }
+    [...convertedTileEntriesBlockStates, ...otherEntries].map(el => el.trim()).join('\n')
   );
 
   console.log(
@@ -326,7 +310,7 @@ const generateLangFile = (inputPath) => {
   );
 };
 
-getFilePaths(Path.join(__dirname, '../input')).forEach((path) =>
+getFilePaths(Path.join(__dirname, "..", "input")).forEach((path) =>
   generateLangFile(path)
 );
 
@@ -354,20 +338,37 @@ foundLanguages.forEach((language) => {
 });
 
 FileSystem.copyFileSync(
-  Path.join(__dirname, './resources/pack_icon.png'),
-  Path.join(__dirname, `../${outDirName}/pack_icon.png`)
+  Path.join(__dirname, "resources", "pack_icon.png"),
+  Path.join(outDir, packDirName, "pack_icon.png")
 );
 
 FileSystem.writeFileSync(
-  Path.join(__dirname, `../${outDirName}/texts/language_names.json`),
+  Path.join(outDir, packDirName, "texts", "language_names.json"),
   JSON.stringify(compiledLangSet, null, 2),
   { encoding: 'utf8' }
 );
 
 FileSystem.writeFileSync(
-  Path.join(__dirname, `../${outDirName}/texts/languages.json`),
+  Path.join(outDir, packDirName, "texts", "languages.json"),
   JSON.stringify(namespacedLanguages, null, 2),
   { encoding: 'utf8' }
 );
 
-console.log(`Finished compiling the provided languages`);
+console.log(`Create "PaperID v${version.join('.')}.mcpack"`)
+
+const output = FileSystem.createWriteStream(Path.join(outDir, `PaperID v${version.join('_')}.zip`));
+const archive = archiver('zip', {
+  zlib: { level: 9 } // Sets the compression level.
+});
+
+output.on('close', () => {
+  console.log(Math.floor(archive.pointer() / 1014) + ' MB written...');
+  FileSystem.copyFileSync(Path.join(outDir, `PaperID v${version.join('_')}.zip`), Path.join(outDir, `PaperID v${version.join('_')}.mcpack`))
+});
+
+
+archive.pipe(output);
+
+archive.directory(Path.join(outDir, packDirName), `PaperID v${version.join('.')}`);
+
+archive.finalize();
